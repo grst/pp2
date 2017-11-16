@@ -1,0 +1,62 @@
+Human Protein Atlas (HPA):
+	Spalten:
+	- Ensembl Gene ID
+	- Gene Name
+	- Support Level (Validated, Supported, Approved, Uncertain)
+	- Gene Ontology compartment annotation (Multiple annotations possible!)
+
+	Size: 12003 genes
+	 Approved Supported Uncertain Validated 
+    	 6076      3600       779      1548 
+
+	Prediction by: https://www.proteinatlas.org/humanproteome/secretome#prediction
+
+UniProt/SwissProt:
+	Common topological domains
+
+	    Chloroplast intermembrane
+	    Cytoplasmic
+	    Extracellular
+	    Intravacuolar
+	    Intravirion
+	    Lumenal
+	    Lumenal, thylakoid
+	    Lumenal, vesicle
+	    Mitochondrial intermembrane
+	    Mitochondrial matrix
+	    Periplasmic
+	    Peroxisomal
+	    Peroxisomal matrix
+	    Nuclear
+	    Perinuclear space
+	    Stromal
+	    Vacuolar
+	    Vesicular
+	    Virion surface
+
+	Rare topological domains
+
+	    Lumenal, melanosome
+	    Mother cell cytoplasmic
+	    Forespore intermembrane space
+	    Intragranular
+	    In membrane
+	    Pore forming
+	    Exoplasmic loop
+
+	In der Praxis auch mit GO Compartment Terms annotiert
+
+	-> Reliability Label (how location annotations were created)
+	
+	Experimental/Curated
+		When there is clear experimental proof for the location of the N-terminus or the C-terminus in the cytoplasm 
+		(or some other cellular compartment), this is labeled with ‘Experimental’ or ‘Curated’ evidence depending on the level of 			confidence
+
+	Sequence analysis/similiarity
+		When nothing is known about the subcellular location of the protein, we annotate the topological domains based on TMHMM 		predictions using the default values of ‘cytoplasmic’ and ‘extracellular’. In all cases, predicted topological domains are 			annotated with ‘Sequence analysis’.
+
+
+	Selected data set: http://www.uniprot.org/uniprot/?query=*&fil=proteome%3AUP000005640+AND+reviewed%3Ayes+AND+organism%3A%22Homo+sapiens+%28Human%29+%5B9606%5D%22
+	-> Human proteome
+	Unique SwissProt annotated proteins: 16321 	(of ~20k proteins)	-> 86 used terms
+	All (swissprot+GO) annotated proteins: 18268				-> 1698 used terms
