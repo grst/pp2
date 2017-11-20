@@ -1,0 +1,123 @@
+deeploc_location	target_location	target_source
+Cell membrane	Membrane	swissprot
+Cell membrane	Cell junction	swissprot
+Cytoplasm	Lysosome membrane	swissprot
+Cytoplasm	Cytoplasm	swissprot
+Endoplasmic reticulum	Membrane	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum membrane	swissprot
+Golgi apparatus	Membrane	swissprot
+Mitochondrion	Membrane	swissprot
+Mitochondrion	Mitochondrion membrane	swissprot
+Mitochondrion	Mitochondrion matrix	swissprot
+Mitochondrion	Mitochondrion inner membrane	swissprot
+Nucleus	Membrane	swissprot
+Nucleus	Nucleus speckle	swissprot
+Nucleus	Nucleus membrane	swissprot
+Nucleus	Chromosome	swissprot
+Extracellular	Secreted	swissprot
+Cell membrane	Plasma membrane	hpa
+Cell membrane	Mitochondria	hpa
+Cell membrane	Nuclear speckles	hpa
+Cell membrane	Vesicles	hpa
+Cell membrane	Nucleus	hpa
+Cell membrane	Focal adhesion sites	hpa
+Cell membrane	Nuclear membrane	hpa
+Cell membrane	Nucleoplasm	hpa
+Cell membrane	Endoplasmic reticulum	hpa
+Cell membrane	Cell Junctions	hpa
+Cell membrane	Cytosol	hpa
+Cell membrane	Golgi apparatus	hpa
+Cell membrane	Nucleoli fibrillar center	hpa
+Cell membrane	Actin filaments	hpa
+Cell membrane	Nucleoli	hpa
+Cell membrane	Microtubule organizing center	hpa
+Cytoplasm	Plasma membrane	hpa
+Cytoplasm	Nuclear speckles	hpa
+Cytoplasm	Nucleus	hpa
+Cytoplasm	Centrosome	hpa
+Cytoplasm	Focal adhesion sites	hpa
+Cytoplasm	Cell Junctions	hpa
+Cytoplasm	Nucleoplasm	hpa
+Cytoplasm	Endoplasmic reticulum	hpa
+Cytoplasm	Nucleoli fibrillar center	hpa
+Cytoplasm	Golgi apparatus	hpa
+Cytoplasm	Cytoplasmic bodies	hpa
+Cytoplasm	Mitotic spindle	hpa
+Cytoplasm	Cytosol	hpa
+Cytoplasm	Nuclear bodies	hpa
+Cytoplasm	Intermediate filaments	hpa
+Cytoplasm	Microtubules	hpa
+Cytoplasm	Actin filaments	hpa
+Cytoplasm	Nucleoli	hpa
+Cytoplasm	Microtubule organizing center	hpa
+Cytoplasm	Mitochondria	hpa
+Cytoplasm	Vesicles	hpa
+Cytoplasm	Nuclear membrane	hpa
+Endoplasmic reticulum	Plasma membrane	hpa
+Endoplasmic reticulum	Mitochondria	hpa
+Endoplasmic reticulum	Nuclear speckles	hpa
+Endoplasmic reticulum	Vesicles	hpa
+Endoplasmic reticulum	Nucleus	hpa
+Endoplasmic reticulum	Centrosome	hpa
+Endoplasmic reticulum	Nuclear membrane	hpa
+Endoplasmic reticulum	Endoplasmic reticulum	hpa
+Endoplasmic reticulum	Rods & Rings	hpa
+Endoplasmic reticulum	Cytosol	hpa
+Endoplasmic reticulum	Golgi apparatus	hpa
+Golgi apparatus	Plasma membrane	hpa
+Golgi apparatus	Nuclear speckles	hpa
+Golgi apparatus	Vesicles	hpa
+Golgi apparatus	Nucleus	hpa
+Golgi apparatus	Nucleoplasm	hpa
+Golgi apparatus	Golgi apparatus	hpa
+Lysosome/Vacuole	Nucleoplasm	hpa
+Lysosome/Vacuole	Cytosol	hpa
+Lysosome/Vacuole	Vesicles	hpa
+Mitochondrion	Plasma membrane	hpa
+Mitochondrion	Mitochondria	hpa
+Mitochondrion	Vesicles	hpa
+Mitochondrion	Nucleus	hpa
+Mitochondrion	Nuclear membrane	hpa
+Mitochondrion	Nucleoplasm	hpa
+Mitochondrion	Cell Junctions	hpa
+Mitochondrion	Cytosol	hpa
+Mitochondrion	Nuclear bodies	hpa
+Mitochondrion	Nucleoli fibrillar center	hpa
+Mitochondrion	Nucleoli	hpa
+Nucleus	Plasma membrane	hpa
+Nucleus	Midbody	hpa
+Nucleus	Nuclear speckles	hpa
+Nucleus	Nucleus	hpa
+Nucleus	Centrosome	hpa
+Nucleus	Focal adhesion sites	hpa
+Nucleus	Nucleoplasm	hpa
+Nucleus	Endoplasmic reticulum	hpa
+Nucleus	Cell Junctions	hpa
+Nucleus	Nucleoli fibrillar center	hpa
+Nucleus	Golgi apparatus	hpa
+Nucleus	Cytokinetic bridge	hpa
+Nucleus	Cytoplasmic bodies	hpa
+Nucleus	Cytosol	hpa
+Nucleus	Nuclear bodies	hpa
+Nucleus	Intermediate filaments	hpa
+Nucleus	Microtubules	hpa
+Nucleus	Actin filaments	hpa
+Nucleus	Nucleoli	hpa
+Nucleus	Microtubule organizing center	hpa
+Nucleus	Mitochondria	hpa
+Nucleus	Vesicles	hpa
+Nucleus	Nuclear membrane	hpa
+Peroxisome	Mitochondria	hpa
+Peroxisome	Vesicles	hpa
+Peroxisome	Peroxisomes	hpa
+Peroxisome	Nucleoplasm	hpa
+Peroxisome	Nucleoli fibrillar center	hpa
+Extracellular	Plasma membrane	hpa
+Extracellular	Mitochondria	hpa
+Extracellular	Vesicles	hpa
+Extracellular	Nucleus	hpa
+Extracellular	Nucleoplasm	hpa
+Extracellular	Microtubules	hpa
+Extracellular	Endoplasmic reticulum	hpa
+Extracellular	Cytosol	hpa
+Extracellular	Golgi apparatus	hpa
