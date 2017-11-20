@@ -20,13 +20,14 @@ my $row;
 my $counter;
 my $last_id;
 my $last_name;
-my %sc_go = ();
-my %sc_uniprot = ();
+my $last_species;
+my @locations_swissprot = ();
+my %evidences;
 
 #-------------------------------------------------------#
 #Ausführung der einzelnen Subroutinen (Main-Runner Code)
 #-------------------------------------------------------#
-print "#UniProt_ID" . "\t" . "#Gene_Name" . "\t" . "#Annotation_source" . "\t" . "#Subcellular_location" . "\n";
+print "#UniProt_ID" . "\t" . "#Species" . "\t" .  "#Gene_Name" . "\t" . "#Annotation_source" . "\t" . "#Subcellular_location" . "\t" . "#annotation_evidence" . "\n";
 
 #Einlesen der UniProt xml Datei
 my $switcher = 0;
@@ -42,8 +43,11 @@ while($row = <$input>){
 		$row =~ /.*<accession>([A-Za-z0-9]+)<\/accession>/;
 		if(defined($1)){
 			$last_name = ".";
+            $last_species = ".";
 			$last_id = $1;
 			$counter++;
+            @locations_swissprot = ();
+            %evidences = ();
 		}
 		else{
 			print "ERROR: ID nicht gefunden." . "\n";
@@ -56,21 +60,35 @@ while($row = <$input>){
 	elsif($row =~ /<name type="primary".*>(.*)<\/name>/){
 		$last_name = $1;
 	}
+    elsif($row =~ /<name type="scientific".*>(.*)<\/name>/){
+        $last_species = $1;
+    }
 	elsif($row =~ /.*<subcellularLocation>/){
 		$switcher_uni = 1;
 	}
-	elsif($row =~ /.*<location.*>(.*)<\/location>/ && $switcher_uni == 1){
-		print $last_id . "\t" . $last_name . "\t" . "SwissProt" . "\t" . $1 . "\n";
+    # ignore locations without evidence
+	elsif($row =~ /.*<location evidence="(\d+)".*>(.*)<\/location>/ && $switcher_uni == 1){
+        push(@locations_swissprot, [$2, $1]);
 		$switcher_uni = 0;
 	}
-	elsif($row =~ /.*<dbReference type="GO" id=".*">/){
-		$switcher_go = 1;
-	}
-	elsif($row =~ /.*<property type="term" value="C:(.*)"\/>/ && $switcher_go == 1){
-		print $last_id . "\t" . $last_name . "\t" . "GO" . "\t" . $1 . "\n";
-		$switcher_go = 0;
-	}
-	elsif($row =~ /\<\/entry.*/){
+    ## ignore GO terms atm. 
+	# elsif($row =~ /.*<dbReference type="GO" id=".*">/){
+	# 	$switcher_go = 1;
+	# }
+	# elsif($row =~ /.*<property type="term" value="C:(.*)"\/>/ && $switcher_go == 1){
+	# 	print $last_id . "\t" . $last_species . "\t" . $last_name . "\t" . "GO" . "\t" . $1 . "\n";
+	# 	$switcher_go = 0;
+	# }
+    elsif($row =~ /<evidence key="(\d+)" type="(.+)".*>/) {
+        # print $1 . "\t" .  $2;
+        $evidences{$1} = $2;
+    }
+	elsif($row =~ /\<\/entry.*/ && $switcher == 1) {
+        foreach my $loc (@locations_swissprot) {
+            my $tmp_loc = $loc->[0];
+            my $tmp_evidence = $evidences{$loc->[1]};
+            print $last_id . "\t" . $last_species . "\t" . $last_name . "\t" . "SwissProt" . "\t" . $tmp_loc . "\t" . $tmp_evidence . "\n";
+        }
 		$switcher = 0;
 	}
 }
