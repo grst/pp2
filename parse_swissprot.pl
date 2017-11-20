@@ -27,7 +27,7 @@ my %evidences;
 #-------------------------------------------------------#
 #Ausführung der einzelnen Subroutinen (Main-Runner Code)
 #-------------------------------------------------------#
-print "#UniProt_ID" . "\t" . "#Species" . "\t" .  "#Gene_Name" . "\t" . "#Annotation_source" . "\t" . "#Subcellular_location" . "\t" . "#annotation_evidence" . "\n";
+print "uniprot_id" . "\t" . "species" . "\t" .  "gene_name" . "\t" . "annotation_source" . "\t" . "subcellular_location" . "\t" . "annotation_evidence" . "\n";
 
 #Einlesen der UniProt xml Datei
 my $switcher = 0;
