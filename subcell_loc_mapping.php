@@ -2,7 +2,7 @@
 
     #region parse
     $dom = new DomDocument;
-    $dom->loadXml(file_get_contents('locations-all.rdf'));
+    $dom->loadXml(file_get_contents('data/swissprot-locations-all.rdf'));
     $xph = new DOMXPath($dom);
     $xph->registerNamespace('', "http://www.w3.org/2005/Atom");
     $xph->registerNamespace('rdf', "http://www.w3.org/1999/02/22-rdf-syntax-ns#");
