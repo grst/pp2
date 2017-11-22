@@ -1,208 +1,192 @@
 deeploc_location	target_location	target_source
-Cell membrane	Midbody	swissprot
 Cell membrane	Cell membrane	swissprot
 Cell membrane	Apical cell membrane	swissprot
-Cell membrane	Cytoplasm	swissprot
-Cell membrane	Membrane raft	swissprot
-Cell membrane	Membrane	swissprot
+Cell membrane	Apicolateral cell membrane	swissprot
+Cell membrane	attachment organelle membrane	swissprot
+Cell membrane	Basal cell membrane	swissprot
 Cell membrane	Basolateral cell membrane	swissprot
+Cell membrane	Bud membrane	swissprot
+Cell membrane	Cell inner membrane	swissprot
+Cell membrane	cilium membrane	swissprot
+Cell membrane	flagellum membrane	swissprot
+Cell membrane	dendritic spine membrane	swissprot
+Cell membrane	filopodium membrane	swissprot
+Cell membrane	growth cone membrane	swissprot
+Cell membrane	invadopodium membrane	swissprot
+Cell membrane	lamellipodium membrane	swissprot
+Cell membrane	Lateral cell membrane	swissprot
+Cell membrane	microvillus membrane	swissprot
 Cell membrane	Myelin membrane	swissprot
-Cell membrane	Endoplasmic reticulum membrane	swissprot
-Cell membrane	Cell junction	swissprot
-Cell membrane	Cytoplasmic vesicle membrane	swissprot
-Cell membrane	Secreted	swissprot
-Cytoplasm	Endosome	swissprot
-Cytoplasm	Endosome membrane	swissprot
-Cytoplasm	Golgi apparatus	swissprot
-Cytoplasm	Cytoplasm	swissprot
-Cytoplasm	Endoplasmic reticulum	swissprot
-Cytoplasm	Midbody	swissprot
-Cytoplasm	Mitochondrion	swissprot
-Cytoplasm	Cytoplasmic granule	swissprot
-Cytoplasm	Photoreceptor inner segment	swissprot
-Cytoplasm	Chromosome	swissprot
-Cytoplasm	Membrane	swissprot
-Cytoplasm	Nucleus	swissprot
-Cytoplasm	Endoplasmic reticulum membrane	swissprot
-Cytoplasm	Secreted	swissprot
-Cytoplasm	Cell junction	swissprot
-Cytoplasm	Nucleus speckle	swissprot
-Cytoplasm	Cytoplasmic vesicle	swissprot
-Cytoplasm	Nucleus membrane	swissprot
-Cytoplasm	Nucleus envelope	swissprot
-Endoplasmic reticulum	Golgi apparatus	swissprot
-Endoplasmic reticulum	Endoplasmic reticulum	swissprot
-Endoplasmic reticulum	Endoplasmic reticulum lumen	swissprot
-Endoplasmic reticulum	Membrane	swissprot
-Endoplasmic reticulum	Endoplasmic reticulum membrane	swissprot
-Endoplasmic reticulum	Microsome membrane	swissprot
-Endoplasmic reticulum	Endoplasmic reticulum-Golgi intermediate compartment membrane	swissprot
-Endoplasmic reticulum	Microsome	swissprot
-Endoplasmic reticulum	Nucleus membrane	swissprot
-Endoplasmic reticulum	Endoplasmic reticulum-Golgi intermediate compartment	swissprot
-Golgi apparatus	Membrane	swissprot
-Golgi apparatus	Golgi apparatus	swissprot
-Golgi apparatus	Golgi apparatus membrane	swissprot
-Golgi apparatus	Endoplasmic reticulum-Golgi intermediate compartment membrane	swissprot
-Lysosome/Vacuole	Lysosome	swissprot
-Lysosome/Vacuole	Endosome membrane	swissprot
-Lysosome/Vacuole	Cytoplasm	swissprot
-Lysosome/Vacuole	Cell membrane	swissprot
-Lysosome/Vacuole	Lysosome lumen	swissprot
-Lysosome/Vacuole	Late endosome membrane	swissprot
-Lysosome/Vacuole	Lysosome membrane	swissprot
-Lysosome/Vacuole	Membrane	swissprot
-Lysosome/Vacuole	Golgi apparatus membrane	swissprot
-Lysosome/Vacuole	Vacuole membrane	swissprot
-Mitochondrion	Mitochondrion intermembrane space	swissprot
-Mitochondrion	Mitochondrion	swissprot
-Mitochondrion	Mitochondrion membrane	swissprot
-Mitochondrion	Mitochondrion outer membrane	swissprot
-Mitochondrion	Mitochondrion matrix	swissprot
-Mitochondrion	Mitochondrion inner membrane	swissprot
-Nucleus	Nucleus inner membrane	swissprot
-Nucleus	Mitochondrion intermembrane space	swissprot
-Nucleus	Cytoplasm	swissprot
-Nucleus	Endoplasmic reticulum	swissprot
-Nucleus	Midbody	swissprot
-Nucleus	Mitochondrion	swissprot
-Nucleus	Cytoplasmic granule	swissprot
-Nucleus	Chromosome	swissprot
-Nucleus	Membrane	swissprot
+Cell membrane	podosome membrane	swissprot
+Cell membrane	porosome	swissprot
+Cell membrane	postsynaptic cell membrane	swissprot
+Cell membrane	postsynaptic density	swissprot
+Cell membrane	presynaptic cell membrane	swissprot
+Cell membrane	pseudopodium membrane	swissprot
+Cell membrane	ruffle membrane	swissprot
+Cell membrane	sarcolemma	swissprot
+Cell membrane	stereocilium membrane	swissprot
 Nucleus	Nucleus	swissprot
+Nucleus	Cajal body	swissprot
+Nucleus	gem	swissprot
+Nucleus	Nuclear body	swissprot
+Nucleus	Cajal body	swissprot
+Nucleus	gem	swissprot
+Nucleus	Nucleus speckle	swissprot
+Nucleus	PML body	swissprot
+Nucleus	nucleolus	swissprot
+Nucleus	nucleoplasm	swissprot
+Nucleus	Nucleus envelope	swissprot
+Nucleus	nuclear pore complex	swissprot
+Nucleus	Nucleus intermembrane space	swissprot
+Nucleus	Nucleus lamina	swissprot
+Nucleus	Nucleus membrane	swissprot
+Nucleus	Nucleus inner membrane	swissprot
+Nucleus	Nucleus outer membrane	swissprot
 Nucleus	Nucleus matrix	swissprot
 Nucleus	Nucleus speckle	swissprot
-Nucleus	Cytoplasmic vesicle	swissprot
-Nucleus	Nucleus membrane	swissprot
-Nucleus	Nucleus outer membrane	swissprot
-Nucleus	Nucleus envelope	swissprot
-Peroxisome	Peroxisome	swissprot
-Peroxisome	Peroxisome membrane	swissprot
-Extracellular	Cytoplasm	swissprot
-Extracellular	Mitochondrion	swissprot
-Extracellular	Cell surface	swissprot
-Extracellular	Membrane	swissprot
+Nucleus	PML body	swissprot
+Cytoplasm	Cytoplasm	swissprot
+Cytoplasm	cell cortex	swissprot
+Cytoplasm	cytoskeleton	swissprot
+Cytoplasm	actin patch	swissprot
+Cytoplasm	cilium axoneme	swissprot
+Cytoplasm	flagellum axoneme	swissprot
+Cytoplasm	cilium basal body	swissprot
+Cytoplasm	flagellum basal body	swissprot
+Cytoplasm	microtubule organizing center	swissprot
+Cytoplasm	centrosome	swissprot
+Cytoplasm	centriolar satellite	swissprot
+Cytoplasm	centriole	swissprot
+Cytoplasm	spindle pole body	swissprot
+Cytoplasm	perinuclear theca	swissprot
+Cytoplasm	calyx	swissprot
+Cytoplasm	phragmoplast	swissprot
+Cytoplasm	spindle	swissprot
+Cytoplasm	spindle pole	swissprot
+Cytoplasm	cytosol	swissprot
+Cytoplasm	Inflammasome	swissprot
+Cytoplasm	nucleoid	swissprot
+Cytoplasm	P-body	swissprot
+Cytoplasm	perinuclear region	swissprot
+Cytoplasm	sarcoplasm	swissprot
+Cytoplasm	myofibril	swissprot
+Cytoplasm	sarcomere	swissprot
+Cytoplasm	A band	swissprot
+Cytoplasm	H zone	swissprot
+Cytoplasm	M line	swissprot
+Cytoplasm	I band	swissprot
+Cytoplasm	Z line	swissprot
 Extracellular	Secreted	swissprot
-Cell membrane	Centrosome	hpa
-Cell membrane	Cytosol	hpa
-Cell membrane	Golgi apparatus	hpa
-Cell membrane	Nucleoli	hpa
-Cell membrane	Endoplasmic reticulum	hpa
-Cell membrane	Mitochondria	hpa
-Cell membrane	Nuclear speckles	hpa
-Cell membrane	Cell Junctions	hpa
-Cell membrane	Nuclear bodies	hpa
-Cell membrane	Nucleoli fibrillar center	hpa
-Cell membrane	Nucleoplasm	hpa
-Cell membrane	Nucleus	hpa
-Cell membrane	Microtubules	hpa
-Cell membrane	Nuclear membrane	hpa
-Cell membrane	Actin filaments	hpa
+Extracellular	capsule	swissprot
+Extracellular	cell wall	swissprot
+Extracellular	primary cell wall	swissprot
+Extracellular	secondary cell wall	swissprot
+Extracellular	S-layer	swissprot
+Extracellular	exosome	swissprot
+Extracellular	extracellular space	swissprot
+Extracellular	apoplast	swissprot
+Extracellular	extracellular matrix	swissprot
+Extracellular	apical lamina	swissprot
+Extracellular	basement membrane	swissprot
+Extracellular	hyaline layer	swissprot
+Extracellular	interphotoreceptor matrix	swissprot
+Extracellular	pollen coat	swissprot
+Extracellular	surface film	swissprot
+Extracellular	slime layer	swissprot
+Mitochondrion	Mitochondrion	swissprot
+Mitochondrion	Mitochondrion envelope	swissprot
+Mitochondrion	Mitochondrion intermembrane space	swissprot
+Mitochondrion	Mitochondrion membrane	swissprot
+Mitochondrion	Mitochondrion inner membrane	swissprot
+Mitochondrion	Mitochondrion outer membrane	swissprot
+Mitochondrion	Mitochondrion matrix	swissprot
+Mitochondrion	kinetoplast	swissprot
+Mitochondrion	mitochondrion nucleoid	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Rough endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Smooth endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	Rough endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	Smooth endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	Microsome	swissprot
+Endoplasmic reticulum	Microsome membrane	swissprot
+Endoplasmic reticulum	Rough endoplasmic reticulum	swissprot
+Endoplasmic reticulum	Rough endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Rough endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	Smooth endoplasmic reticulum	swissprot
+Endoplasmic reticulum	Smooth endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Smooth endoplasmic reticulum membrane	swissprot
+Golgi apparatus	Golgi apparatus	swissprot
+Golgi apparatus	cis-Golgi network	swissprot
+Golgi apparatus	cis-Golgi network membrane	swissprot
+Golgi apparatus	Golgi apparatus lumen	swissprot
+Golgi apparatus	Golgi stack lumen	swissprot
+Golgi apparatus	Golgi apparatus membrane	swissprot
+Golgi apparatus	cis-Golgi network membrane	swissprot
+Golgi apparatus	Golgi stack membrane	swissprot
+Golgi apparatus	trans-Golgi network membrane	swissprot
+Golgi apparatus	Golgi stack	swissprot
+Golgi apparatus	Golgi stack lumen	swissprot
+Golgi apparatus	Golgi stack membrane	swissprot
+Golgi apparatus	trans-Golgi network	swissprot
+Golgi apparatus	trans-Golgi network membrane	swissprot
+Lysosome/Vacuole	Lysosome	swissprot
+Lysosome/Vacuole	Lysosome lumen	swissprot
+Lysosome/Vacuole	Lysosome membrane	swissprot
+Lysosome/Vacuole	Vacuole	swissprot
+Lysosome/Vacuole	aleurone grain	swissprot
+Lysosome/Vacuole	aleurone grain lumen	swissprot
+Lysosome/Vacuole	aleurone grain membrane	swissprot
+Lysosome/Vacuole	Contractile vacuole	swissprot
+Lysosome/Vacuole	Contractile vacuole lumen	swissprot
+Lysosome/Vacuole	Contractile vacuole membrane	swissprot
+Lysosome/Vacuole	gas vesicle	swissprot
+Lysosome/Vacuole	gas vesicle lumen	swissprot
+Lysosome/Vacuole	gas vesicle membrane	swissprot
+Lysosome/Vacuole	Lytic vacuole	swissprot
+Lysosome/Vacuole	Protein storage vacuole	swissprot
+Lysosome/Vacuole	Protein storage vacuole lumen	swissprot
+Lysosome/Vacuole	Protein storage vacuole membrane	swissprot
+Lysosome/Vacuole	Vacuole lumen	swissprot
+Lysosome/Vacuole	aleurone grain lumen	swissprot
+Lysosome/Vacuole	Contractile vacuole lumen	swissprot
+Lysosome/Vacuole	gas vesicle lumen	swissprot
+Lysosome/Vacuole	Protein storage vacuole lumen	swissprot
+Lysosome/Vacuole	Vacuole membrane	swissprot
+Lysosome/Vacuole	aleurone grain membrane	swissprot
+Lysosome/Vacuole	Contractile vacuole membrane	swissprot
+Lysosome/Vacuole	gas vesicle membrane	swissprot
+Lysosome/Vacuole	Protein storage vacuole membrane	swissprot
+Peroxisome	Peroxisome matrix	swissprot
+Peroxisome	Glycosome matrix	swissprot
+Peroxisome	Glyoxysome matrix	swissprot
+Peroxisome	Peroxisome membrane	swissprot
+Peroxisome	Glycosome membrane	swissprot
+Peroxisome	Glyoxysome membrane	swissprot
 Cell membrane	Plasma membrane	hpa
-Cell membrane	Focal adhesion sites	hpa
-Cell membrane	Vesicles	hpa
-Cell membrane	Microtubule organizing center	hpa
-Cytoplasm	Centrosome	hpa
-Cytoplasm	Nucleoli	hpa
-Cytoplasm	Microtubule ends	hpa
-Cytoplasm	Intermediate filaments	hpa
-Cytoplasm	Nuclear bodies	hpa
-Cytoplasm	Mitotic spindle	hpa
-Cytoplasm	Cytosol	hpa
-Cytoplasm	Cytokinetic bridge	hpa
-Cytoplasm	Cell Junctions	hpa
-Cytoplasm	Nucleoplasm	hpa
-Cytoplasm	Nuclear membrane	hpa
-Cytoplasm	Microtubules	hpa
-Cytoplasm	Golgi apparatus	hpa
-Cytoplasm	Microtubule organizing center	hpa
-Cytoplasm	Endoplasmic reticulum	hpa
-Cytoplasm	Mitochondria	hpa
-Cytoplasm	Nucleoli fibrillar center	hpa
-Cytoplasm	Nucleus	hpa
-Cytoplasm	Focal adhesion sites	hpa
-Cytoplasm	Vesicles	hpa
-Cytoplasm	Cytoplasmic bodies	hpa
-Cytoplasm	Nuclear speckles	hpa
-Cytoplasm	Actin filaments	hpa
-Cytoplasm	Plasma membrane	hpa
-Endoplasmic reticulum	Centrosome	hpa
-Endoplasmic reticulum	Cytosol	hpa
-Endoplasmic reticulum	Endoplasmic reticulum	hpa
-Endoplasmic reticulum	Mitochondria	hpa
-Endoplasmic reticulum	Nuclear speckles	hpa
-Endoplasmic reticulum	Rods & Rings	hpa
-Endoplasmic reticulum	Nucleoplasm	hpa
-Endoplasmic reticulum	Nuclear membrane	hpa
-Endoplasmic reticulum	Nucleus	hpa
-Endoplasmic reticulum	Plasma membrane	hpa
-Endoplasmic reticulum	Golgi apparatus	hpa
-Endoplasmic reticulum	Vesicles	hpa
-Golgi apparatus	Cytosol	hpa
-Golgi apparatus	Nuclear speckles	hpa
-Golgi apparatus	Endoplasmic reticulum	hpa
-Golgi apparatus	Nucleoplasm	hpa
-Golgi apparatus	Nucleus	hpa
-Golgi apparatus	Plasma membrane	hpa
-Golgi apparatus	Golgi apparatus	hpa
-Golgi apparatus	Vesicles	hpa
-Lysosome/Vacuole	Cytosol	hpa
-Lysosome/Vacuole	Nucleoplasm	hpa
-Lysosome/Vacuole	Nucleus	hpa
-Lysosome/Vacuole	Golgi apparatus	hpa
-Lysosome/Vacuole	Vesicles	hpa
-Lysosome/Vacuole	Microtubule organizing center	hpa
-Mitochondrion	Centrosome	hpa
-Mitochondrion	Cytosol	hpa
-Mitochondrion	Nucleoli	hpa
-Mitochondrion	Endoplasmic reticulum	hpa
-Mitochondrion	Mitochondria	hpa
-Mitochondrion	Intermediate filaments	hpa
-Mitochondrion	Cell Junctions	hpa
-Mitochondrion	Nuclear bodies	hpa
-Mitochondrion	Nucleoli fibrillar center	hpa
-Mitochondrion	Nucleoplasm	hpa
-Mitochondrion	Nucleus	hpa
-Mitochondrion	Nuclear membrane	hpa
-Mitochondrion	Plasma membrane	hpa
-Mitochondrion	Vesicles	hpa
-Nucleus	Centrosome	hpa
-Nucleus	Nucleoli	hpa
-Nucleus	Intermediate filaments	hpa
-Nucleus	Nuclear bodies	hpa
-Nucleus	Cytosol	hpa
-Nucleus	Cytokinetic bridge	hpa
-Nucleus	Cell Junctions	hpa
 Nucleus	Nucleoplasm	hpa
-Nucleus	Nuclear membrane	hpa
-Nucleus	Microtubules	hpa
-Nucleus	Aggresome	hpa
-Nucleus	Golgi apparatus	hpa
-Nucleus	Microtubule organizing center	hpa
-Nucleus	Midbody	hpa
-Nucleus	Endoplasmic reticulum	hpa
-Nucleus	Mitochondria	hpa
-Nucleus	Nucleoli fibrillar center	hpa
+Nucleus	Nuclear bodies	hpa
 Nucleus	Nucleus	hpa
-Nucleus	Focal adhesion sites	hpa
-Nucleus	Vesicles	hpa
-Nucleus	Cytoplasmic bodies	hpa
+Nucleus	Nucleoli	hpa
 Nucleus	Nuclear speckles	hpa
-Nucleus	Actin filaments	hpa
-Nucleus	Plasma membrane	hpa
-Peroxisome	Mitochondria	hpa
-Peroxisome	Nucleoli fibrillar center	hpa
-Peroxisome	Nucleoplasm	hpa
+Nucleus	Nuclear membrane	hpa
+Nucleus	Nucleoli fibrillar center	hpa
+Cytoplasm	Cytosol	hpa
+Cytoplasm	Cytoplasmic bodies	hpa
+Cytoplasm	Actin filaments	hpa
+Cytoplasm	Centrosome	hpa
+Cytoplasm	Microtubule organizing center	hpa
+Cytoplasm	Microtubules	hpa
+Cytoplasm	Cytokinetic bridge	hpa
+Cytoplasm	Intermediate filaments	hpa
+Cytoplasm	Mitotic spindle	hpa
+Cytoplasm	Midbody	hpa
+Cytoplasm	Microtubule ends	hpa
+Cytoplasm	Aggresome	hpa
+Mitochondrion	Mitochondria	hpa
+Endoplasmic reticulum	Endoplasmic reticulum	hpa
+Golgi apparatus	Golgi apparatus	hpa
+Lysosome/Vacuole	Lysosomes	hpa
 Peroxisome	Peroxisomes	hpa
-Peroxisome	Vesicles	hpa
-Extracellular	Cytosol	hpa
-Extracellular	Nucleoli	hpa
-Extracellular	Endoplasmic reticulum	hpa
-Extracellular	Mitochondria	hpa
-Extracellular	Nucleoplasm	hpa
-Extracellular	Nucleus	hpa
-Extracellular	Microtubules	hpa
-Extracellular	Actin filaments	hpa
-Extracellular	Plasma membrane	hpa
-Extracellular	Golgi apparatus	hpa
-Extracellular	Vesicles	hpa
