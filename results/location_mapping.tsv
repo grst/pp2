@@ -1,676 +1,274 @@
 deeploc_location	target_location	target_source
-Cell membrane	Felis catus	swissprot
-Cell membrane	Ovis aries	swissprot
-Cell membrane	Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565)	swissprot
-Cell membrane	Cercocebus atys	swissprot
-Cell membrane	Macaca fuscata fuscata	swissprot
-Cell membrane	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Cell membrane	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Cell membrane	Medicago truncatula	swissprot
-Cell membrane	Ceratotherium simum	swissprot
-Cell membrane	Cryptococcus neoformans var. neoformans serotype D (strain B-3501A)	swissprot
-Cell membrane	Arabidopsis thaliana	swissprot
-Cell membrane	Milnesium tardigradum	swissprot
-Cell membrane	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Cell membrane	Podospora anserina	swissprot
-Cell membrane	Ambystoma tigrinum	swissprot
-Cell membrane	Saimiri sciureus	swissprot
-Cell membrane	Dicerorhinus sumatrensis	swissprot
-Cell membrane	Bos taurus	swissprot
-Cell membrane	Macaca mulatta	swissprot
-Cell membrane	Sminthopsis macroura	swissprot
-Cell membrane	Vulpes vulpes	swissprot
-Cell membrane	Papio anubis	swissprot
-Cell membrane	Lemur catta	swissprot
-Cell membrane	Rattus norvegicus	swissprot
-Cell membrane	Cricetulus griseus	swissprot
-Cell membrane	Homo sapiens	swissprot
-Cell membrane	Spalax ehrenbergi	swissprot
-Cell membrane	Diceros bicornis	swissprot
-Cell membrane	Rhinoceros unicornis	swissprot
-Cell membrane	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Cell membrane	Spinacia oleracea	swissprot
-Cell membrane	Macaca nemestrina	swissprot
-Cell membrane	Mesocricetus auratus	swissprot
-Cell membrane	Dugong dugon	swissprot
-Cell membrane	Oryza sativa subsp. japonica	swissprot
-Cell membrane	Oryctolagus cuniculus	swissprot
-Cell membrane	Pongo pygmaeus	swissprot
-Cell membrane	Otolemur garnettii	swissprot
-Cell membrane	Meriones unguiculatus	swissprot
-Cell membrane	Bison bison	swissprot
-Cell membrane	Didelphis virginiana	swissprot
-Cell membrane	Capra hircus	swissprot
-Cell membrane	Pelodiscus sinensis	swissprot
-Cell membrane	Gorilla gorilla gorilla	swissprot
-Cell membrane	Canis lupus familiaris	swissprot
-Cell membrane	Gibberella zeae (strain PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084)	swissprot
-Cell membrane	Erythrocebus patas	swissprot
-Cell membrane	Boselaphus tragocamelus	swissprot
-Cell membrane	Mustela putorius furo	swissprot
-Cell membrane	Macaca fascicularis	swissprot
-Cell membrane	Pan troglodytes	swissprot
-Cell membrane	Papio hamadryas	swissprot
-Cell membrane	Colobus guereza	swissprot
-Cell membrane	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Cell membrane	Yarrowia lipolytica (strain CLIB 122 / E 150)	swissprot
-Cell membrane	Cavia porcellus	swissprot
-Cell membrane	Chlorocebus aethiops	swissprot
-Cell membrane	Equus caballus	swissprot
-Cell membrane	Sus scrofa	swissprot
-Cell membrane	Cricetus cricetus	swissprot
-Cell membrane	Meleagris gallopavo	swissprot
-Cell membrane	Gallus gallus	swissprot
-Cell membrane	Aotus nancymaae	swissprot
-Cell membrane	Saimiri boliviensis boliviensis	swissprot
-Cell membrane	Ailuropoda melanoleuca	swissprot
-Cell membrane	Delphinapterus leucas	swissprot
-Cell membrane	Pan paniscus	swissprot
-Cell membrane	Pongo abelii	swissprot
-Cell membrane	Tursiops truncatus	swissprot
-Cytoplasm	Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970)	swissprot
-Cytoplasm	Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173)	swissprot
-Cytoplasm	Felis catus	swissprot
-Cytoplasm	Ovis aries	swissprot
-Cytoplasm	Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565)	swissprot
-Cytoplasm	Hylobates lar	swissprot
-Cytoplasm	Macaca fuscata fuscata	swissprot
-Cytoplasm	Bombyx mori	swissprot
-Cytoplasm	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Cytoplasm	Candida albicans	swissprot
-Cytoplasm	Saccharomyces cerevisiae (strain YJM789)	swissprot
-Cytoplasm	Drosophila melanogaster	swissprot
-Cytoplasm	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Cytoplasm	Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324)	swissprot
-Cytoplasm	Cryptococcus neoformans var. neoformans serotype D (strain B-3501A)	swissprot
-Cytoplasm	Venturia inaequalis	swissprot
-Cytoplasm	Arabidopsis thaliana	swissprot
-Cytoplasm	Monodelphis domestica	swissprot
-Cytoplasm	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Cytoplasm	Cryptococcus neoformans var. grubii serotype A (strain H99 / ATCC 208821 / CBS 10515 / FGSC 9487)	swissprot
-Cytoplasm	Physcomitrella patens subsp. patens	swissprot
-Cytoplasm	Ustilago maydis (strain 521 / FGSC 9021)	swissprot
-Cytoplasm	Encephalitozoon cuniculi (strain GB-M1)	swissprot
-Cytoplasm	Podospora anserina	swissprot
-Cytoplasm	Rhinolophus ferrumequinum	swissprot
-Cytoplasm	Bos mutus grunniens	swissprot
-Cytoplasm	Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)	swissprot
-Cytoplasm	Oryza sativa subsp. indica	swissprot
-Cytoplasm	Plecturocebus moloch	swissprot
-Cytoplasm	Sorex araneus	swissprot
-Cytoplasm	Bos taurus	swissprot
-Cytoplasm	Macaca mulatta	swissprot
-Cytoplasm	Nicotiana tabacum	swissprot
-Cytoplasm	Ajellomyces capsulatus	swissprot
-Cytoplasm	Monilinia fructicola	swissprot
-Cytoplasm	Papio anubis	swissprot
-Cytoplasm	Coccidioides immitis (strain RS)	swissprot
-Cytoplasm	Pichia angusta	swissprot
-Cytoplasm	Rattus norvegicus	swissprot
-Cytoplasm	Cricetulus griseus	swissprot
-Cytoplasm	Chlamydomonas reinhardtii	swissprot
-Cytoplasm	Homo sapiens	swissprot
-Cytoplasm	Phyllomedusa bicolor	swissprot
-Cytoplasm	Psammomys obesus	swissprot
-Cytoplasm	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Cytoplasm	Mesocricetus auratus	swissprot
-Cytoplasm	Oryza sativa subsp. japonica	swissprot
-Cytoplasm	Oryctolagus cuniculus	swissprot
-Cytoplasm	Pongo pygmaeus	swissprot
-Cytoplasm	Coturnix japonica	swissprot
-Cytoplasm	Otolemur garnettii	swissprot
-Cytoplasm	Taeniopygia guttata	swissprot
-Cytoplasm	Pelodiscus sinensis	swissprot
-Cytoplasm	Gorilla gorilla gorilla	swissprot
-Cytoplasm	Sauromatum venosum	swissprot
-Cytoplasm	Phaseolus vulgaris	swissprot
-Cytoplasm	Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545)	swissprot
-Cytoplasm	Canis lupus familiaris	swissprot
-Cytoplasm	Citrus sinensis	swissprot
-Cytoplasm	Anolis carolinensis	swissprot
-Cytoplasm	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Cytoplasm	Callithrix jacchus	swissprot
-Cytoplasm	Macaca fascicularis	swissprot
-Cytoplasm	Pan troglodytes	swissprot
-Cytoplasm	Colobus guereza	swissprot
-Cytoplasm	Komagataella phaffii (strain ATCC 76273 / CBS 7435 / CECT 11047 / NRRL Y-11430 / Wegner 21-1)	swissprot
-Cytoplasm	Komagataella phaffii (strain GS115 / ATCC 20864)	swissprot
-Cytoplasm	Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294)	swissprot
-Cytoplasm	Glycine max	swissprot
-Cytoplasm	Yarrowia lipolytica (strain CLIB 122 / E 150)	swissprot
-Cytoplasm	Candida albicans (strain SC5314 / ATCC MYA-2876)	swissprot
-Cytoplasm	Chlorocebus aethiops	swissprot
-Cytoplasm	Cavia porcellus	swissprot
-Cytoplasm	Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239)	swissprot
-Cytoplasm	Magnaporthe oryzae (strain Y34)	swissprot
-Cytoplasm	Equus caballus	swissprot
-Cytoplasm	Sus scrofa	swissprot
-Cytoplasm	Zea mays	swissprot
-Cytoplasm	Ailuropoda melanoleuca	swissprot
-Cytoplasm	Gallus gallus	swissprot
-Cytoplasm	Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)	swissprot
-Cytoplasm	Paracoccidioides brasiliensis	swissprot
-Cytoplasm	Pongo abelii	swissprot
-Endoplasmic reticulum	Ovis aries	swissprot
-Endoplasmic reticulum	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Endoplasmic reticulum	Megalobrama amblycephala	swissprot
-Endoplasmic reticulum	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Endoplasmic reticulum	Arabidopsis thaliana	swissprot
-Endoplasmic reticulum	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Endoplasmic reticulum	Oryza sativa subsp. indica	swissprot
-Endoplasmic reticulum	Bos taurus	swissprot
-Endoplasmic reticulum	Macaca mulatta	swissprot
-Endoplasmic reticulum	Papio anubis	swissprot
-Endoplasmic reticulum	Trypanosoma brucei brucei (strain 927/4 GUTat10.1)	swissprot
-Endoplasmic reticulum	Cricetulus griseus	swissprot
-Endoplasmic reticulum	Homo sapiens	swissprot
-Endoplasmic reticulum	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Endoplasmic reticulum	Mesocricetus auratus	swissprot
-Endoplasmic reticulum	Oryza sativa subsp. japonica	swissprot
-Endoplasmic reticulum	Oryctolagus cuniculus	swissprot
-Endoplasmic reticulum	Capra hircus	swissprot
-Endoplasmic reticulum	Acanthamoeba polyphaga	swissprot
-Endoplasmic reticulum	Canis lupus familiaris	swissprot
-Endoplasmic reticulum	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Endoplasmic reticulum	Callithrix jacchus	swissprot
-Endoplasmic reticulum	Macaca fascicularis	swissprot
-Endoplasmic reticulum	Pan troglodytes	swissprot
-Endoplasmic reticulum	Yarrowia lipolytica (strain CLIB 122 / E 150)	swissprot
-Endoplasmic reticulum	Candida albicans (strain SC5314 / ATCC MYA-2876)	swissprot
-Endoplasmic reticulum	Chlorocebus aethiops	swissprot
-Endoplasmic reticulum	Cavia porcellus	swissprot
-Endoplasmic reticulum	Sus scrofa	swissprot
-Endoplasmic reticulum	Anas platyrhynchos	swissprot
-Endoplasmic reticulum	Ailuropoda melanoleuca	swissprot
-Endoplasmic reticulum	Gallus gallus	swissprot
-Endoplasmic reticulum	Delphinapterus leucas	swissprot
-Endoplasmic reticulum	Pan paniscus	swissprot
-Endoplasmic reticulum	Pongo abelii	swissprot
-Golgi apparatus	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Golgi apparatus	Callithrix jacchus	swissprot
-Golgi apparatus	Canis lupus familiaris	swissprot
-Golgi apparatus	Macaca fascicularis	swissprot
-Golgi apparatus	Bos taurus	swissprot
-Golgi apparatus	Papio anubis	swissprot
-Golgi apparatus	Arabidopsis thaliana	swissprot
-Golgi apparatus	Sus scrofa	swissprot
-Golgi apparatus	Taeniopygia guttata	swissprot
-Golgi apparatus	Ailuropoda melanoleuca	swissprot
-Golgi apparatus	Gallus gallus	swissprot
-Golgi apparatus	Cricetulus griseus	swissprot
-Golgi apparatus	Homo sapiens	swissprot
-Golgi apparatus	Pongo abelii	swissprot
-Lysosome/Vacuole	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Lysosome/Vacuole	Ovis aries	swissprot
-Lysosome/Vacuole	Canis lupus familiaris	swissprot
-Lysosome/Vacuole	Macaca fascicularis	swissprot
-Lysosome/Vacuole	Oryza sativa subsp. japonica	swissprot
-Lysosome/Vacuole	Pan troglodytes	swissprot
-Lysosome/Vacuole	Bos taurus	swissprot
-Lysosome/Vacuole	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Lysosome/Vacuole	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Lysosome/Vacuole	Arabidopsis thaliana	swissprot
-Lysosome/Vacuole	Sus scrofa	swissprot
-Lysosome/Vacuole	Ailuropoda melanoleuca	swissprot
-Lysosome/Vacuole	Gallus gallus	swissprot
-Lysosome/Vacuole	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Lysosome/Vacuole	Homo sapiens	swissprot
-Lysosome/Vacuole	Pongo abelii	swissprot
-Mitochondrion	Ovis aries	swissprot
-Mitochondrion	Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565)	swissprot
-Mitochondrion	Hylobates lar	swissprot
-Mitochondrion	Ornithorhynchus anatinus	swissprot
-Mitochondrion	Saccharomyces cerevisiae (strain JAY291)	swissprot
-Mitochondrion	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Mitochondrion	Saccharomyces cerevisiae (strain YJM789)	swissprot
-Mitochondrion	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Mitochondrion	Cryptococcus neoformans var. neoformans serotype D (strain B-3501A)	swissprot
-Mitochondrion	Candida albicans (strain WO-1)	swissprot
-Mitochondrion	Arabidopsis thaliana	swissprot
-Mitochondrion	Populus trichocarpa	swissprot
-Mitochondrion	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Mitochondrion	Ostreococcus tauri	swissprot
-Mitochondrion	Physcomitrella patens subsp. patens	swissprot
-Mitochondrion	Podospora anserina	swissprot
-Mitochondrion	Oryza sativa subsp. indica	swissprot
-Mitochondrion	Bos taurus	swissprot
-Mitochondrion	Zygosaccharomyces rouxii (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 / NRRL Y-229)	swissprot
-Mitochondrion	Plasmodium chabaudi	swissprot
-Mitochondrion	Macaca mulatta	swissprot
-Mitochondrion	Picea sitchensis	swissprot
-Mitochondrion	Gekko japonicus	swissprot
-Mitochondrion	Lachancea kluyveri (strain ATCC 58438 / CBS 3082 / CCRC 21498 / NBRC 1685 / JCM 7257 / NCYC 543 / NRRL Y-12651)	swissprot
-Mitochondrion	Plasmodium falciparum	swissprot
-Mitochondrion	Saccharomyces cerevisiae (strain RM11-1a)	swissprot
-Mitochondrion	Ricinus communis	swissprot
-Mitochondrion	Homo sapiens	swissprot
-Mitochondrion	Danio rerio	swissprot
-Mitochondrion	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Mitochondrion	Saccharomyces cerevisiae (strain Lalvin EC1118 / Prise de mousse)	swissprot
-Mitochondrion	Sorghum bicolor	swissprot
-Mitochondrion	Mesocricetus auratus	swissprot
-Mitochondrion	Oryza sativa subsp. japonica	swissprot
-Mitochondrion	Ostreococcus lucimarinus (strain CCE9901)	swissprot
-Mitochondrion	Oryctolagus cuniculus	swissprot
-Mitochondrion	Pongo pygmaeus	swissprot
-Mitochondrion	Cyberlindnera jadinii	swissprot
-Mitochondrion	Taeniopygia guttata	swissprot
-Mitochondrion	Gorilla gorilla gorilla	swissprot
-Mitochondrion	Canis lupus familiaris	swissprot
-Mitochondrion	Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)	swissprot
-Mitochondrion	Gibberella zeae (strain PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084)	swissprot
-Mitochondrion	Zea mays	swissprot
-Mitochondrion	Callithrix jacchus	swissprot
-Mitochondrion	Macaca fascicularis	swissprot
-Mitochondrion	Pan troglodytes	swissprot
-Mitochondrion	Columba livia	swissprot
-Mitochondrion	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Mitochondrion	Plasmodium yoelii yoelii	swissprot
-Mitochondrion	Clavispora lusitaniae (strain ATCC 42720)	swissprot
-Mitochondrion	Yarrowia lipolytica (strain CLIB 122 / E 150)	swissprot
-Mitochondrion	Candida albicans (strain SC5314 / ATCC MYA-2876)	swissprot
-Mitochondrion	Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239)	swissprot
-Mitochondrion	Equus caballus	swissprot
-Mitochondrion	Sus scrofa	swissprot
-Mitochondrion	Ailuropoda melanoleuca	swissprot
-Mitochondrion	Gallus gallus	swissprot
-Mitochondrion	Meleagris gallopavo	swissprot
-Mitochondrion	Vitis vinifera	swissprot
-Mitochondrion	Delphinapterus leucas	swissprot
-Mitochondrion	Pongo abelii	swissprot
-Mitochondrion	Candida tropicalis (strain ATCC MYA-3404 / T1)	swissprot
-Nucleus	Chaetomium globosum (strain ATCC 6205 / CBS 148.51 / DSM 1962 / NBRC 6347 / NRRL 1970)	swissprot
-Nucleus	Galeopterus variegatus	swissprot
-Nucleus	Chinchilla lanigera	swissprot
-Nucleus	Daucus carota	swissprot
-Nucleus	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Nucleus	Arabidopsis thaliana	swissprot
-Nucleus	Candida glabrata (strain ATCC 2001 / CBS 138 / JCM 3761 / NBRC 0622 / NRRL Y-65)	swissprot
-Nucleus	Oryza sativa subsp. indica	swissprot
-Nucleus	Verticillium alfalfae (strain VaMs.102 / ATCC MYA-4576 / FGSC 10136)	swissprot
-Nucleus	Bos taurus	swissprot
-Nucleus	Coccidioides immitis (strain RS)	swissprot
-Nucleus	Candida dubliniensis (strain CD36 / ATCC MYA-646 / CBS 7987 / NCPF 3949 / NRRL Y-17841)	swissprot
-Nucleus	Saccharomyces cerevisiae (strain RM11-1a)	swissprot
-Nucleus	Plasmodium falciparum	swissprot
-Nucleus	Uncinocarpus reesii (strain UAMH 1704)	swissprot
-Nucleus	Homo sapiens	swissprot
-Nucleus	Saccharomyces cerevisiae (strain Lalvin EC1118 / Prise de mousse)	swissprot
-Nucleus	Galliformes	swissprot
-Nucleus	Pongo pygmaeus	swissprot
-Nucleus	Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC MYA-4618 / FGSC 9003)	swissprot
-Nucleus	Otolemur garnettii	swissprot
-Nucleus	Taeniopygia guttata	swissprot
-Nucleus	Gorilla gorilla gorilla	swissprot
-Nucleus	Canis lupus familiaris	swissprot
-Nucleus	Gibberella zeae (strain PH-1 / ATCC MYA-4620 / FGSC 9075 / NRRL 31084)	swissprot
-Nucleus	Zea mays	swissprot
-Nucleus	Clavispora lusitaniae (strain ATCC 42720)	swissprot
-Nucleus	Komagataella phaffii (strain GS115 / ATCC 20864)	swissprot
-Nucleus	Pan troglodytes	swissprot
-Nucleus	Saccharomyces cerevisiae (strain AWRI1631)	swissprot
-Nucleus	Candida albicans (strain SC5314 / ATCC MYA-2876)	swissprot
-Nucleus	Chlorocebus aethiops	swissprot
-Nucleus	Sus scrofa	swissprot
-Nucleus	Ailuropoda melanoleuca	swissprot
-Nucleus	Vicia faba	swissprot
-Nucleus	Halocynthia roretzi	swissprot
-Nucleus	Pongo abelii	swissprot
-Nucleus	Candida tropicalis (strain ATCC MYA-3404 / T1)	swissprot
-Nucleus	Puccinia graminis	swissprot
-Nucleus	Euplotes octocarinatus	swissprot
-Nucleus	Sclerotinia sclerotiorum (strain ATCC 18683 / 1980 / Ss-1)	swissprot
-Nucleus	Saccharomyces cerevisiae (strain YJM789)	swissprot
-Nucleus	Ceratotherium simum	swissprot
-Nucleus	Meyerozyma guilliermondii (strain ATCC 6260 / CBS 566 / DSM 6381 / JCM 1539 / NBRC 10279 / NRRL Y-324)	swissprot
-Nucleus	Equus burchelli	swissprot
-Nucleus	Ustilago maydis (strain 521 / FGSC 9021)	swissprot
-Nucleus	Encephalitozoon cuniculi (strain GB-M1)	swissprot
-Nucleus	Geospiza fortis	swissprot
-Nucleus	Sylvilagus floridanus	swissprot
-Nucleus	Aedes aegypti	swissprot
-Nucleus	Rattus norvegicus	swissprot
-Nucleus	Strongylocentrotus purpuratus	swissprot
-Nucleus	Ajellomyces capsulatus (strain NAm1 / WU24)	swissprot
-Nucleus	Tupaia glis	swissprot
-Nucleus	Podospora anserina (strain S / ATCC MYA-4624 / DSM 980 / FGSC 10383)	swissprot
-Nucleus	Ciona intestinalis	swissprot
-Nucleus	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Nucleus	Laccaria bicolor (strain S238N-H82 / ATCC MYA-4686)	swissprot
-Nucleus	Oryza sativa subsp. japonica	swissprot
-Nucleus	Macropus eugenii	swissprot
-Nucleus	Trichophyton verrucosum (strain HKI 0517)	swissprot
-Nucleus	Capra hircus	swissprot
-Nucleus	Scheffersomyces stipitis (strain ATCC 58785 / CBS 6054 / NBRC 10063 / NRRL Y-11545)	swissprot
-Nucleus	Lachancea thermotolerans (strain ATCC 56472 / CBS 6340 / NRRL Y-8284)	swissprot
-Nucleus	Callithrix jacchus	swissprot
-Nucleus	Arthroderma otae (strain ATCC MYA-4605 / CBS 113480)	swissprot
-Nucleus	Pyrenophora tritici-repentis (strain Pt-1C-BFP)	swissprot
-Nucleus	Arthroderma benhamiae (strain ATCC MYA-4681 / CBS 112371)	swissprot
-Nucleus	Coccidioides posadasii (strain C735)	swissprot
-Nucleus	Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 / FGSC 10173)	swissprot
-Nucleus	Cryptococcus neoformans var. neoformans serotype D (strain JEC21 / ATCC MYA-565)	swissprot
-Nucleus	Saccharomyces cerevisiae (strain JAY291)	swissprot
-Nucleus	Escherichia coli	swissprot
-Nucleus	Nectria haematococca (strain 77-13-4 / ATCC MYA-4622 / FGSC 9596 / MPVI)	swissprot
-Nucleus	Tuber melanosporum (strain Mel28)	swissprot
-Nucleus	Paracoccidioides brasiliensis (strain Pb03)	swissprot
-Nucleus	Candida albicans (strain WO-1)	swissprot
-Nucleus	Monodelphis domestica	swissprot
-Nucleus	Magnaporthe oryzae (strain 70-15 / ATCC MYA-4617 / FGSC 8958)	swissprot
-Nucleus	Ajellomyces capsulatus (strain H143)	swissprot
-Nucleus	Plecturocebus moloch	swissprot
-Nucleus	Nicotiana tabacum	swissprot
-Nucleus	Zygosaccharomyces rouxii (strain ATCC 2623 / CBS 732 / NBRC 1130 / NCYC 568 / NRRL Y-229)	swissprot
-Nucleus	Cebus capucinus	swissprot
-Nucleus	Mesocricetus auratus	swissprot
-Nucleus	Dictyostelium discoideum	swissprot
-Nucleus	Oryctolagus cuniculus	swissprot
-Nucleus	Anopheles gambiae	swissprot
-Nucleus	Nicotiana plumbaginifolia	swissprot
-Nucleus	Sordaria macrospora (strain ATCC MYA-333 / DSM 997 / K(L3346) / K-hell)	swissprot
-Nucleus	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Nucleus	Macaca fascicularis	swissprot
-Nucleus	Yarrowia lipolytica (strain CLIB 122 / E 150)	swissprot
-Nucleus	Pipistrellus rusticus	swissprot
-Nucleus	Enterobacteriaceae	swissprot
-Nucleus	Equus caballus	swissprot
-Nucleus	Paracoccidioides brasiliensis (strain Pb18)	swissprot
-Nucleus	Gallus gallus	swissprot
-Nucleus	Chlorocebus pygerythrus	swissprot
-Nucleus	Pan paniscus	swissprot
-Nucleus	Ambystoma mexicanum	swissprot
-Nucleus	Felis catus	swissprot
-Nucleus	Pteropus hypomelanus	swissprot
-Nucleus	Ovis aries	swissprot
-Nucleus	Hylobates lar	swissprot
-Nucleus	Ellobius lutescens	swissprot
-Nucleus	Blastomyces gilchristii (strain SLH14081)	swissprot
-Nucleus	Catharanthus roseus	swissprot
-Nucleus	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Nucleus	Drosophila melanogaster	swissprot
-Nucleus	Cryptococcus neoformans var. neoformans serotype D (strain B-3501A)	swissprot
-Nucleus	Ajellomyces dermatitidis (strain ER-3 / ATCC MYA-2586)	swissprot
-Nucleus	Ajellomyces capsulatus (strain G186AR / H82 / ATCC MYA-2454 / RMSCC 2432)	swissprot
-Nucleus	Giardia intestinalis	swissprot
-Nucleus	Marmota monax	swissprot
-Nucleus	Tadarida brasiliensis	swissprot
-Nucleus	Paracoccidioides lutzii (strain ATCC MYA-826 / Pb01)	swissprot
-Nucleus	Macaca mulatta	swissprot
-Nucleus	Branchiostoma floridae	swissprot
-Nucleus	Cricetulus griseus	swissprot
-Nucleus	Saguinus labiatus	swissprot
-Nucleus	Epomophorus gambianus	swissprot
-Nucleus	Felidae	swissprot
-Nucleus	Coturnix japonica	swissprot
-Nucleus	Mus musculus	swissprot
-Nucleus	Vanderwaltozyma polyspora (strain ATCC 22028 / DSM 70294)	swissprot
-Nucleus	Eulemur macaco	swissprot
-Nucleus	Lodderomyces elongisporus (strain ATCC 11503 / CBS 2605 / JCM 1781 / NBRC 1676 / NRRL YB-4239)	swissprot
-Nucleus	Meleagris gallopavo	swissprot
-Nucleus	Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)	swissprot
-Nucleus	Malassezia globosa (strain ATCC MYA-4612 / CBS 7966)	swissprot
-Peroxisome	Saccharomyces cerevisiae (strain ATCC 204508 / S288c)	swissprot
-Peroxisome	Debaryomyces hansenii (strain ATCC 36239 / CBS 767 / JCM 1990 / NBRC 0083 / IGC 2968)	swissprot
-Peroxisome	Zea mays	swissprot
-Peroxisome	Macaca fascicularis	swissprot
-Peroxisome	Cricetulus longicaudatus	swissprot
-Peroxisome	Hordeum vulgare	swissprot
-Peroxisome	Bos taurus	swissprot
-Peroxisome	Ashbya gossypii (strain ATCC 10895 / CBS 109.51 / FGSC 9923 / NRRL Y-1056)	swissprot
-Peroxisome	Komagataella pastoris	swissprot
-Peroxisome	Oryza sativa subsp. japonica	swissprot
-Peroxisome	Kluyveromyces lactis (strain ATCC 8585 / CBS 2359 / DSM 70799 / NBRC 1267 / NRRL Y-1140 / WM37)	swissprot
-Peroxisome	Cavia porcellus	swissprot
-Peroxisome	Emericella nidulans (strain FGSC A4 / ATCC 38163 / CBS 112.46 / NRRL 194 / M139)	swissprot
-Peroxisome	Arabidopsis thaliana	swissprot
-Peroxisome	Gallus gallus	swissprot
-Peroxisome	Homo sapiens	swissprot
-Peroxisome	Pongo abelii	swissprot
-Extracellular	Chinchilla lanigera	swissprot
-Extracellular	Callicebus personatus personatus	swissprot
-Extracellular	Equus asinus	swissprot
-Extracellular	Arabidopsis thaliana	swissprot
-Extracellular	Boiga dendrophila	swissprot
-Extracellular	Ateles geoffroyi	swissprot
-Extracellular	Callithrix kuhlii	swissprot
-Extracellular	Cercopithecus erythrogaster	swissprot
-Extracellular	Micromys minutus	swissprot
-Extracellular	Bos taurus	swissprot
-Extracellular	Panthera tigris tigris	swissprot
-Extracellular	Homo sapiens	swissprot
-Extracellular	Pongo pygmaeus	swissprot
-Extracellular	Otolemur garnettii	swissprot
-Extracellular	Gorilla gorilla gorilla	swissprot
-Extracellular	Trichosurus vulpecula	swissprot
-Extracellular	Octodon degus	swissprot
-Extracellular	Saguinus niger	swissprot
-Extracellular	Canis lupus familiaris	swissprot
-Extracellular	Zea mays	swissprot
-Extracellular	Colobus guereza	swissprot
-Extracellular	Pan troglodytes	swissprot
-Extracellular	Equus grevyi	swissprot
-Extracellular	Candida albicans (strain SC5314 / ATCC MYA-2876)	swissprot
-Extracellular	Cavia porcellus	swissprot
-Extracellular	Chlorocebus aethiops	swissprot
-Extracellular	Callithrix penicillata	swissprot
-Extracellular	Sus scrofa	swissprot
-Extracellular	Panthera tigris altaica	swissprot
-Extracellular	Pongo abelii	swissprot
-Extracellular	Acinonyx jubatus	swissprot
-Extracellular	Gerbilliscus gambianus	swissprot
-Extracellular	Lepus europaeus	swissprot
-Extracellular	Colobus angolensis	swissprot
-Extracellular	Ceratotherium simum	swissprot
-Extracellular	Aotus azarae	swissprot
-Extracellular	Callicebus personatus nigrifrons	swissprot
-Extracellular	Brachyteles arachnoides	swissprot
-Extracellular	Saguinus oedipus	swissprot
-Extracellular	Presbytis melalophos	swissprot
-Extracellular	Rattus norvegicus	swissprot
-Extracellular	Tupaia glis	swissprot
-Extracellular	Papio cynocephalus	swissprot
-Extracellular	Rhinopithecus roxellana	swissprot
-Extracellular	Oryza sativa subsp. japonica	swissprot
-Extracellular	Ateles paniscus	swissprot
-Extracellular	Tiliqua rugosa	swissprot
-Extracellular	Nomascus concolor	swissprot
-Extracellular	Macropus eugenii	swissprot
-Extracellular	Hylobates moloch	swissprot
-Extracellular	Leontopithecus chrysopygus	swissprot
-Extracellular	Bothrops jararaca	swissprot
-Extracellular	Capra hircus	swissprot
-Extracellular	Trachypithecus obscurus	swissprot
-Extracellular	Callithrix jacchus	swissprot
-Extracellular	Bubalus bubalis	swissprot
-Extracellular	Chlorocebus sabaeus	swissprot
-Extracellular	Saguinus martinsi	swissprot
-Extracellular	Saguinus fuscicollis	swissprot
-Extracellular	Cacajao melanocephalus	swissprot
-Extracellular	Saguinus bicolor bicolor	swissprot
-Extracellular	Saimiri boliviensis boliviensis	swissprot
-Extracellular	Camelus dromedarius	swissprot
-Extracellular	Ornithorhynchus anatinus	swissprot
-Extracellular	Callithrix humeralifera	swissprot
-Extracellular	Pithecia irrorata	swissprot
-Extracellular	Callithrix pygmaea	swissprot
-Extracellular	Monodelphis domestica	swissprot
-Extracellular	Plecturocebus moloch	swissprot
-Extracellular	Capra hircus aegagrus	swissprot
-Extracellular	Papio anubis	swissprot
-Extracellular	Cercopithecus preussi	swissprot
-Extracellular	Neovison vison	swissprot
-Extracellular	Mesocricetus auratus	swissprot
-Extracellular	Nasalis larvatus	swissprot
-Extracellular	Dictyostelium discoideum	swissprot
-Extracellular	Oryctolagus cuniculus	swissprot
-Extracellular	Papio papio	swissprot
-Extracellular	Equus burchellii antiquorum	swissprot
-Extracellular	Saguinus mystax	swissprot
-Extracellular	Callithrix aurita	swissprot
-Extracellular	Callimico goeldii	swissprot
-Extracellular	Macaca fascicularis	swissprot
-Extracellular	Papio hamadryas	swissprot
-Extracellular	Boiga irregularis	swissprot
-Extracellular	Petromyzon marinus	swissprot
-Extracellular	Equus caballus	swissprot
-Extracellular	Gallus gallus	swissprot
-Extracellular	Crotalus atrox	swissprot
-Extracellular	Erinaceus europaeus	swissprot
-Extracellular	Alligator mississippiensis	swissprot
-Extracellular	Pan paniscus	swissprot
-Extracellular	Saimiri ustus	swissprot
-Extracellular	Felis catus	swissprot
-Extracellular	Ovis aries	swissprot
-Extracellular	Hylobates lar	swissprot
-Extracellular	Plecturocebus hoffmannsi	swissprot
-Extracellular	Struthio camelus	swissprot
-Extracellular	Chiropotes satanas	swissprot
-Extracellular	Saimiri sciureus	swissprot
-Extracellular	Aotus lemurinus	swissprot
-Extracellular	Macaca mulatta	swissprot
-Extracellular	Saguinus midas midas	swissprot
-Extracellular	Myodes glareolus	swissprot
-Extracellular	Eliomys quercinus	swissprot
-Extracellular	Cricetulus griseus	swissprot
-Extracellular	Callithrix emiliae	swissprot
-Extracellular	Saguinus imperator	swissprot
-Extracellular	Cebus albifrons	swissprot
-Extracellular	Cebus olivaceus	swissprot
-Extracellular	Coturnix japonica	swissprot
-Extracellular	Mus musculus	swissprot
-Extracellular	Odobenus rosmarus divergens	swissprot
-Extracellular	Sigmodon hispidus	swissprot
-Extracellular	Lagothrix lagotricha	swissprot
-Extracellular	Alouatta seniculus	swissprot
-Extracellular	Trachypithecus cristatus	swissprot
-Extracellular	Cheracebus torquatus	swissprot
-Extracellular	Sapajus apella	swissprot
-Extracellular	Meleagris gallopavo	swissprot
-Extracellular	Gloydius blomhoffii	swissprot
-Extracellular	Aotus nancymaae	swissprot
-Extracellular	Tachyglossus aculeatus aculeatus	swissprot
-Extracellular	Leptonychotes weddellii	swissprot
-Cell membrane	Centrosome	hpa
-Cell membrane	Cytosol	hpa
-Cell membrane	Nucleus	hpa
-Cell membrane	Nucleoplasm	hpa
-Cell membrane	Actin filaments	hpa
-Cell membrane	Nucleoli fibrillar center	hpa
-Cell membrane	Microtubule organizing center	hpa
+Cell membrane	Membrane	swissprot
+Cell membrane	Cytoplasmic vesicle membrane	swissprot
+Cell membrane	Cell membrane	swissprot
+Cell membrane	Midbody	swissprot
+Cell membrane	Apical cell membrane	swissprot
+Cell membrane	Membrane raft	swissprot
+Cell membrane	Secreted	swissprot
+Cell membrane	Perikaryon	swissprot
+Cell membrane	Peroxisome membrane	swissprot
+Cell membrane	Cell junction	swissprot
+Cell membrane	Plastid	swissprot
+Cell membrane	Vacuole membrane	swissprot
+Cell membrane	Cell projection	swissprot
+Cell membrane	Mitochondrion inner membrane	swissprot
+Cell membrane	Cytoplasmic vesicle	swissprot
+Cell membrane	Nucleus	swissprot
+Cell membrane	Myelin membrane	swissprot
+Cell membrane	Cytoplasm	swissprot
+Cell membrane	Endoplasmic reticulum membrane	swissprot
+Cell membrane	Golgi apparatus	swissprot
+Cell membrane	Glyoxysome membrane	swissprot
+Cell membrane	Basolateral cell membrane	swissprot
+Cytoplasm	Membrane	swissprot
+Cytoplasm	Nucleus envelope	swissprot
+Cytoplasm	Early endosome	swissprot
+Cytoplasm	Cell membrane	swissprot
+Cytoplasm	Nucleus membrane	swissprot
+Cytoplasm	Midbody	swissprot
+Cytoplasm	Secreted	swissprot
+Cytoplasm	Perikaryon	swissprot
+Cytoplasm	Peroxisome membrane	swissprot
+Cytoplasm	Nucleus speckle	swissprot
+Cytoplasm	Cell junction	swissprot
+Cytoplasm	Lysosome membrane	swissprot
+Cytoplasm	Endosome membrane	swissprot
+Cytoplasm	Endosome	swissprot
+Cytoplasm	Endoplasmic reticulum-Golgi intermediate compartment	swissprot
+Cytoplasm	Plastid	swissprot
+Cytoplasm	Cell projection	swissprot
+Cytoplasm	Mitochondrion inner membrane	swissprot
+Cytoplasm	Cytoplasmic granule	swissprot
+Cytoplasm	Cytoplasmic vesicle	swissprot
+Cytoplasm	Nucleus	swissprot
+Cytoplasm	Photoreceptor inner segment	swissprot
+Cytoplasm	Myelin membrane	swissprot
+Cytoplasm	Cytoplasm	swissprot
+Cytoplasm	Recycling endosome	swissprot
+Cytoplasm	Endoplasmic reticulum membrane	swissprot
+Cytoplasm	Golgi apparatus	swissprot
+Cytoplasm	Mitochondrion intermembrane space	swissprot
+Cytoplasm	Peroxisome matrix	swissprot
+Cytoplasm	Chromosome	swissprot
+Cytoplasm	Peroxisome	swissprot
+Cytoplasm	Golgi apparatus membrane	swissprot
+Cytoplasm	Mitochondrion	swissprot
+Cytoplasm	Endoplasmic reticulum	swissprot
+Endoplasmic reticulum	Membrane	swissprot
+Endoplasmic reticulum	Cell membrane	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	Cytoplasm	swissprot
+Endoplasmic reticulum	Microsome membrane	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum-Golgi intermediate compartment	swissprot
+Endoplasmic reticulum	Nucleus membrane	swissprot
+Endoplasmic reticulum	Golgi apparatus	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum-Golgi intermediate compartment membrane	swissprot
+Endoplasmic reticulum	Endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum	Microsome	swissprot
+Golgi apparatus	Golgi apparatus membrane	swissprot
+Golgi apparatus	Membrane	swissprot
+Golgi apparatus	Cytoplasm	swissprot
+Golgi apparatus	Golgi apparatus	swissprot
+Golgi apparatus	Endoplasmic reticulum-Golgi intermediate compartment membrane	swissprot
+Golgi apparatus	Mitochondrion membrane	swissprot
+Lysosome/Vacuole	Vacuole membrane	swissprot
+Lysosome/Vacuole	Membrane	swissprot
+Lysosome/Vacuole	Golgi apparatus membrane	swissprot
+Lysosome/Vacuole	Nucleus	swissprot
+Lysosome/Vacuole	Late endosome membrane	swissprot
+Lysosome/Vacuole	Mitochondrion	swissprot
+Lysosome/Vacuole	Lysosome membrane	swissprot
+Lysosome/Vacuole	Prevacuolar compartment	swissprot
+Lysosome/Vacuole	Lysosome lumen	swissprot
+Lysosome/Vacuole	Cytoplasm	swissprot
+Lysosome/Vacuole	Endosome membrane	swissprot
+Lysosome/Vacuole	Cell membrane	swissprot
+Lysosome/Vacuole	Endosome	swissprot
+Lysosome/Vacuole	Plastid	swissprot
+Lysosome/Vacuole	Lysosome	swissprot
+Lysosome/Vacuole	Early endosome membrane	swissprot
+Lysosome/Vacuole	Prevacuolar compartment membrane	swissprot
+Mitochondrion	Membrane	swissprot
+Mitochondrion	Mitochondrion outer membrane	swissprot
+Mitochondrion	Nucleus	swissprot
+Mitochondrion	Mitochondrion	swissprot
+Mitochondrion	Cytoplasm	swissprot
+Mitochondrion	Plastid	swissprot
+Mitochondrion	Mitochondrion intermembrane space	swissprot
+Mitochondrion	Mitochondrion membrane	swissprot
+Mitochondrion	Peroxisome	swissprot
+Mitochondrion	Mitochondrion matrix	swissprot
+Mitochondrion	Mitochondrion inner membrane	swissprot
+Nucleus	Nucleus matrix	swissprot
+Nucleus	Membrane	swissprot
+Nucleus	Nucleus envelope	swissprot
+Nucleus	Cell membrane	swissprot
+Nucleus	Nucleus membrane	swissprot
+Nucleus	Midbody	swissprot
+Nucleus	Secreted	swissprot
+Nucleus	Host cell inner membrane	swissprot
+Nucleus	Nucleus inner membrane	swissprot
+Nucleus	Protein storage vacuole	swissprot
+Nucleus	Nucleus speckle	swissprot
+Nucleus	Prevacuolar compartment	swissprot
+Nucleus	Host nucleus	swissprot
+Nucleus	Plastid	swissprot
+Nucleus	Cytoplasmic granule	swissprot
+Nucleus	Cytoplasmic vesicle	swissprot
+Nucleus	Nucleus	swissprot
+Nucleus	Nucleus lamina	swissprot
+Nucleus	Cytoplasm	swissprot
+Nucleus	Endoplasmic reticulum membrane	swissprot
+Nucleus	Golgi apparatus	swissprot
+Nucleus	Mitochondrion intermembrane space	swissprot
+Nucleus	Nucleus outer membrane	swissprot
+Nucleus	Mitochondrion membrane	swissprot
+Nucleus	Chromosome	swissprot
+Nucleus	Golgi apparatus membrane	swissprot
+Nucleus	Mitochondrion	swissprot
+Nucleus	Endoplasmic reticulum	swissprot
+Nucleus	Virion	swissprot
+Nucleus	Host cytoplasm	swissprot
+Peroxisome	Peroxisome membrane	swissprot
+Peroxisome	Nucleus	swissprot
+Peroxisome	Mitochondrion	swissprot
+Peroxisome	Cytoplasm	swissprot
+Peroxisome	Secreted	swissprot
+Peroxisome	Peroxisome matrix	swissprot
+Peroxisome	Peroxisome	swissprot
+Extracellular	Membrane	swissprot
+Extracellular	Nucleus	swissprot
+Extracellular	Mitochondrion	swissprot
+Extracellular	Cell membrane	swissprot
+Extracellular	Cytoplasm	swissprot
+Extracellular	Cell surface	swissprot
+Extracellular	Plastid	swissprot
+Extracellular	Golgi apparatus	swissprot
+Extracellular	Secreted	swissprot
+Extracellular	Peroxisome	swissprot
+Extracellular	Endoplasmic reticulum lumen	swissprot
 Cell membrane	Nuclear membrane	hpa
-Cell membrane	Nuclear speckles	hpa
+Cell membrane	Nucleoplasm	hpa
 Cell membrane	Focal adhesion sites	hpa
+Cell membrane	Cytosol	hpa
 Cell membrane	Nucleoli	hpa
-Cell membrane	Vesicles	hpa
-Cell membrane	Plasma membrane	hpa
+Cell membrane	Nucleus	hpa
+Cell membrane	Nucleoli fibrillar center	hpa
+Cell membrane	Centrosome	hpa
+Cell membrane	Microtubule organizing center	hpa
 Cell membrane	Mitochondria	hpa
-Cell membrane	Endoplasmic reticulum	hpa
-Cell membrane	Golgi apparatus	hpa
-Cell membrane	Microtubules	hpa
 Cell membrane	Nuclear bodies	hpa
+Cell membrane	Nuclear speckles	hpa
+Cell membrane	Endoplasmic reticulum	hpa
+Cell membrane	Microtubules	hpa
+Cell membrane	Golgi apparatus	hpa
+Cell membrane	Vesicles	hpa
+Cell membrane	Actin filaments	hpa
 Cell membrane	Cell Junctions	hpa
-Cytoplasm	Cytosol	hpa
-Cytoplasm	Nucleus	hpa
+Cell membrane	Plasma membrane	hpa
 Cytoplasm	Nucleoplasm	hpa
-Cytoplasm	Microtubule organizing center	hpa
-Cytoplasm	Nucleoli fibrillar center	hpa
-Cytoplasm	Nucleoli	hpa
-Cytoplasm	Golgi apparatus	hpa
-Cytoplasm	Microtubule ends	hpa
-Cytoplasm	Mitotic spindle	hpa
-Cytoplasm	Actin filaments	hpa
-Cytoplasm	Nuclear membrane	hpa
-Cytoplasm	Intermediate filaments	hpa
-Cytoplasm	Cytokinetic bridge	hpa
-Cytoplasm	Microtubules	hpa
 Cytoplasm	Centrosome	hpa
 Cytoplasm	Cytoplasmic bodies	hpa
-Cytoplasm	Focal adhesion sites	hpa
-Cytoplasm	Vesicles	hpa
-Cytoplasm	Plasma membrane	hpa
+Cytoplasm	Nucleoli fibrillar center	hpa
 Cytoplasm	Mitochondria	hpa
-Cytoplasm	Nuclear bodies	hpa
-Cytoplasm	Cell Junctions	hpa
+Cytoplasm	Vesicles	hpa
 Cytoplasm	Nuclear speckles	hpa
+Cytoplasm	Nucleoli	hpa
+Cytoplasm	Nuclear bodies	hpa
+Cytoplasm	Microtubules	hpa
+Cytoplasm	Intermediate filaments	hpa
+Cytoplasm	Microtubule ends	hpa
+Cytoplasm	Cell Junctions	hpa
+Cytoplasm	Nuclear membrane	hpa
+Cytoplasm	Nucleus	hpa
+Cytoplasm	Golgi apparatus	hpa
+Cytoplasm	Actin filaments	hpa
+Cytoplasm	Cytokinetic bridge	hpa
+Cytoplasm	Focal adhesion sites	hpa
+Cytoplasm	Cytosol	hpa
+Cytoplasm	Microtubule organizing center	hpa
 Cytoplasm	Endoplasmic reticulum	hpa
+Cytoplasm	Mitotic spindle	hpa
+Cytoplasm	Plasma membrane	hpa
+Endoplasmic reticulum	Nuclear membrane	hpa
 Endoplasmic reticulum	Centrosome	hpa
 Endoplasmic reticulum	Cytosol	hpa
+Endoplasmic reticulum	Nuclear speckles	hpa
 Endoplasmic reticulum	Nucleus	hpa
 Endoplasmic reticulum	Nucleoplasm	hpa
-Endoplasmic reticulum	Nuclear speckles	hpa
-Endoplasmic reticulum	Rods & Rings	hpa
-Endoplasmic reticulum	Nuclear membrane	hpa
-Endoplasmic reticulum	Vesicles	hpa
-Endoplasmic reticulum	Plasma membrane	hpa
-Endoplasmic reticulum	Endoplasmic reticulum	hpa
 Endoplasmic reticulum	Mitochondria	hpa
+Endoplasmic reticulum	Endoplasmic reticulum	hpa
 Endoplasmic reticulum	Golgi apparatus	hpa
+Endoplasmic reticulum	Vesicles	hpa
+Endoplasmic reticulum	Rods & Rings	hpa
+Endoplasmic reticulum	Plasma membrane	hpa
+Golgi apparatus	Nucleoplasm	hpa
 Golgi apparatus	Cytosol	hpa
 Golgi apparatus	Nucleus	hpa
-Golgi apparatus	Nucleoplasm	hpa
-Golgi apparatus	Nuclear speckles	hpa
-Golgi apparatus	Vesicles	hpa
-Golgi apparatus	Plasma membrane	hpa
 Golgi apparatus	Endoplasmic reticulum	hpa
+Golgi apparatus	Plasma membrane	hpa
 Golgi apparatus	Golgi apparatus	hpa
-Lysosome/Vacuole	Cytosol	hpa
-Lysosome/Vacuole	Nucleus	hpa
-Lysosome/Vacuole	Microtubule organizing center	hpa
+Golgi apparatus	Vesicles	hpa
+Golgi apparatus	Nuclear speckles	hpa
 Lysosome/Vacuole	Nucleoplasm	hpa
-Lysosome/Vacuole	Vesicles	hpa
+Lysosome/Vacuole	Cytosol	hpa
+Lysosome/Vacuole	Microtubule organizing center	hpa
+Lysosome/Vacuole	Nucleus	hpa
 Lysosome/Vacuole	Golgi apparatus	hpa
-Mitochondrion	Centrosome	hpa
-Mitochondrion	Cytosol	hpa
-Mitochondrion	Nucleus	hpa
+Lysosome/Vacuole	Vesicles	hpa
 Mitochondrion	Nucleoplasm	hpa
-Mitochondrion	Nucleoli fibrillar center	hpa
-Mitochondrion	Nuclear membrane	hpa
-Mitochondrion	Intermediate filaments	hpa
 Mitochondrion	Nucleoli	hpa
-Mitochondrion	Vesicles	hpa
-Mitochondrion	Plasma membrane	hpa
+Mitochondrion	Cytosol	hpa
+Mitochondrion	Nuclear membrane	hpa
+Mitochondrion	Nucleus	hpa
+Mitochondrion	Nuclear bodies	hpa
+Mitochondrion	Nucleoli fibrillar center	hpa
+Mitochondrion	Centrosome	hpa
 Mitochondrion	Mitochondria	hpa
 Mitochondrion	Endoplasmic reticulum	hpa
-Mitochondrion	Nuclear bodies	hpa
+Mitochondrion	Intermediate filaments	hpa
+Mitochondrion	Vesicles	hpa
 Mitochondrion	Cell Junctions	hpa
-Nucleus	Nucleoli fibrillar center	hpa
-Nucleus	Nucleus	hpa
-Nucleus	Cytosol	hpa
+Mitochondrion	Plasma membrane	hpa
 Nucleus	Nucleoplasm	hpa
-Nucleus	Microtubule organizing center	hpa
+Nucleus	Centrosome	hpa
+Nucleus	Nucleoli fibrillar center	hpa
+Nucleus	Cytoplasmic bodies	hpa
+Nucleus	Aggresome	hpa
+Nucleus	Mitochondria	hpa
+Nucleus	Midbody	hpa
+Nucleus	Vesicles	hpa
+Nucleus	Nuclear speckles	hpa
 Nucleus	Nucleoli	hpa
+Nucleus	Nuclear bodies	hpa
+Nucleus	Microtubules	hpa
+Nucleus	Intermediate filaments	hpa
+Nucleus	Cell Junctions	hpa
+Nucleus	Nuclear membrane	hpa
+Nucleus	Nucleus	hpa
 Nucleus	Golgi apparatus	hpa
 Nucleus	Actin filaments	hpa
-Nucleus	Nuclear membrane	hpa
-Nucleus	Intermediate filaments	hpa
 Nucleus	Cytokinetic bridge	hpa
-Nucleus	Microtubules	hpa
-Nucleus	Aggresome	hpa
-Nucleus	Centrosome	hpa
-Nucleus	Cytoplasmic bodies	hpa
 Nucleus	Focal adhesion sites	hpa
-Nucleus	Vesicles	hpa
-Nucleus	Plasma membrane	hpa
-Nucleus	Mitochondria	hpa
-Nucleus	Nuclear bodies	hpa
-Nucleus	Cell Junctions	hpa
-Nucleus	Midbody	hpa
-Nucleus	Nuclear speckles	hpa
+Nucleus	Cytosol	hpa
+Nucleus	Microtubule organizing center	hpa
 Nucleus	Endoplasmic reticulum	hpa
-Peroxisome	Nucleoli fibrillar center	hpa
+Nucleus	Plasma membrane	hpa
 Peroxisome	Nucleoplasm	hpa
 Peroxisome	Peroxisomes	hpa
-Peroxisome	Vesicles	hpa
+Peroxisome	Nucleoli fibrillar center	hpa
 Peroxisome	Mitochondria	hpa
-Extracellular	Cytosol	hpa
-Extracellular	Actin filaments	hpa
+Peroxisome	Vesicles	hpa
 Extracellular	Nucleoplasm	hpa
-Extracellular	Nucleus	hpa
 Extracellular	Nucleoli	hpa
-Extracellular	Vesicles	hpa
-Extracellular	Plasma membrane	hpa
+Extracellular	Cytosol	hpa
+Extracellular	Nucleus	hpa
 Extracellular	Mitochondria	hpa
 Extracellular	Endoplasmic reticulum	hpa
-Extracellular	Golgi apparatus	hpa
 Extracellular	Microtubules	hpa
+Extracellular	Golgi apparatus	hpa
+Extracellular	Vesicles	hpa
+Extracellular	Actin filaments	hpa
+Extracellular	Plasma membrane	hpa
