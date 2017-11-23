@@ -1,0 +1,137 @@
+subcellular_location	source
+Endoplasmic reticulum	hpa
+Mitochondria	hpa
+Nucleoplasm	hpa
+Cytosol	hpa
+Nuclear bodies	hpa
+Golgi apparatus	hpa
+Plasma membrane	hpa
+Centrosome	hpa
+Microtubule organizing center	hpa
+Vesicles	hpa
+Nucleus	hpa
+Nucleoli	hpa
+Peroxisomes	hpa
+Endosomes	hpa
+Nuclear speckles	hpa
+Lysosomes	hpa
+Focal adhesion sites	hpa
+Cytoplasmic bodies	hpa
+Cell Junctions	hpa
+Nuclear membrane	hpa
+Actin filaments	hpa
+Nucleoli fibrillar center	hpa
+Microtubules	hpa
+Lipid droplets	hpa
+Cytokinetic bridge	hpa
+Intermediate filaments	hpa
+Mitotic spindle	hpa
+Rods & Rings	hpa
+Midbody	hpa
+Microtubule ends	hpa
+Aggresome	hpa
+Midbody ring	hpa
+Cytoplasm	swissprot
+Nucleus	swissprot
+Nucleus speckle	swissprot
+Endosome membrane	swissprot
+Lysosome membrane	swissprot
+Membrane	swissprot
+Mitochondrion	swissprot
+Cell membrane	swissprot
+Cell projection	swissprot
+Nucleus matrix	swissprot
+Cell junction	swissprot
+Rough endoplasmic reticulum lumen	swissprot
+Endoplasmic reticulum-Golgi intermediate compartment lumen	swissprot
+Golgi apparatus	swissprot
+Golgi apparatus lumen	swissprot
+Endosome lumen	swissprot
+Cell surface	swissprot
+Late endosome	swissprot
+Early endosome	swissprot
+Endoplasmic reticulum membrane	swissprot
+Endoplasmic reticulum	swissprot
+Cytoplasmic vesicle	swissprot
+Cytoplasmic granule	swissprot
+Melanosome	swissprot
+Apical cell membrane	swissprot
+Secreted	swissprot
+Golgi apparatus membrane	swissprot
+Mitochondrion membrane	swissprot
+Nucleus membrane	swissprot
+Mitochondrion matrix	swissprot
+Early endosome membrane	swissprot
+Host nucleus	swissprot
+Host cytoplasm	swissprot
+Mitochondrion inner membrane	swissprot
+Mitochondrion outer membrane	swissprot
+Midbody	swissprot
+Endosome	swissprot
+Membrane raft	swissprot
+Virion membrane	swissprot
+Host cell membrane	swissprot
+Host Golgi apparatus	swissprot
+Host cell surface	swissprot
+Chromosome	swissprot
+Microsome membrane	swissprot
+Sarcoplasmic reticulum membrane	swissprot
+Lipid droplet	swissprot
+Mitochondrion intermembrane space	swissprot
+Rough endoplasmic reticulum	swissprot
+Endoplasmic reticulum lumen	swissprot
+Perikaryon	swissprot
+Cytoplasmic vesicle membrane	swissprot
+Basolateral cell membrane	swissprot
+Lysosome	swissprot
+Virion tegument	swissprot
+Peroxisome membrane	swissprot
+Cleavage furrow	swissprot
+Endomembrane system	swissprot
+Nucleus envelope	swissprot
+Late endosome membrane	swissprot
+Melanosome membrane	swissprot
+Endoplasmic reticulum-Golgi intermediate compartment	swissprot
+Virion	swissprot
+Host nucleus matrix	swissprot
+Endoplasmic reticulum-Golgi intermediate compartment membrane	swissprot
+Recycling endosome membrane	swissprot
+Preautophagosomal structure	swissprot
+Sarcoplasmic reticulum	swissprot
+Lateral cell membrane	swissprot
+Nucleus inner membrane	swissprot
+Peroxisome	swissprot
+Recycling endosome	swissprot
+Photoreceptor inner segment	swissprot
+Host endoplasmic reticulum membrane	swissprot
+Host Golgi apparatus membrane	swissprot
+Host mitochondrion membrane	swissprot
+Microsome	swissprot
+Vacuole	swissprot
+Nucleus outer membrane	swissprot
+Cytoplasmic vesicle lumen	swissprot
+Lysosome lumen	swissprot
+Host membrane	swissprot
+Vacuole membrane	swissprot
+Cytoplasmic granule membrane	swissprot
+Myelin membrane	swissprot
+Host endosome	swissprot
+Preautophagosomal structure membrane	swissprot
+Host mitochondrion	swissprot
+Host endoplasmic reticulum	swissprot
+Host endosome membrane	swissprot
+Mitochondrion envelope	swissprot
+Inflammasome	swissprot
+Host endomembrane system	swissprot
+Nucleus lamina	swissprot
+Rough endoplasmic reticulum membrane	swissprot
+Host nucleus membrane	swissprot
+Extracellular	deeploc
+Endoplasmic_reticulum	deeploc
+Golgi_apparatus	deeploc
+Nucleus	deeploc
+Mitochondrion	deeploc
+Cytoplasm	deeploc
+Cell_membrane	deeploc
+Lysosome/Vacuole	deeploc
+Peroxisome	deeploc
