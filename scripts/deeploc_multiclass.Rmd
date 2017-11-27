@@ -1,0 +1,207 @@
+---
+title: "DeepLoc Multiclass predictions"
+output: html_notebook
+---
+
+```{r setup}
+library(tidyverse)
+library(ggpubr)
+library(cowplot)
+```
+
+In this notebook, we try to investigate how DeepLoc handles proteins, that occur at multiple locations. 
+
+### Load dataset
+We use the HPA as a reference dataset
+```{r}
+deeploc = read_tsv("../results/deeploc_all.tsv")
+location_mapping = read_tsv("../results/location_mapping.tsv")
+```
+
+Do the location mapping and some other preparatory work:
+```{r}
+hpa = read_tsv("../results/hpa_filtered.tsv")
+
+deeploc_prots = deeploc %>%
+  select(hgnc) %>%
+  distinct()
+
+hpa = hpa %>%
+  inner_join(
+    filter(location_mapping, target_source == 'hpa'),
+    by=c(subcellular_location="target_location")) %>%
+  inner_join(deeploc_prots) %>%
+  select(hgnc, deeploc_location) %>%
+  distinct()
+
+hpa_prots = hpa %>% select(hgnc) %>% distinct()
+
+hpa_locs = location_mapping %>%
+  filter(target_source == 'hpa') %>%
+  select(deeploc_location) %>%
+  distinct()
+
+multi_hpa = hpa %>% 
+  group_by(hgnc) %>%
+  count() %>%
+  filter(n >= 2) %>%
+  select(hgnc)
+
+hpa_multi = hpa %>%
+  inner_join(multi_hpa)
+```
+
+# Find proteins with multiple isoforms
+We extract all proteins with multiple isoforms from the deeploc dataset and look if the multiple locations somehow correspond to the corresponding multiclass predictions. 
+
+```{r}
+deeploc_pred = deeploc %>%
+  select(Prediction, hgnc) %>%
+  distinct()
+
+multi_pred = deeploc_pred %>%
+  group_by(hgnc) %>%
+  count() %>%
+  filter(n >= 2) %>%
+  select(hgnc)
+
+deeploc_multi = deeploc_pred %>%
+  inner_join(multi_pred)
+
+deeploc_multi_fil = deeploc_multi %>%
+  inner_join(hpa_prots) %>%
+  inner_join(hpa_locs, by=c(Prediction="deeploc_location"))
+
+multi_fil = deeploc_multi_fil %>%
+  group_by(hgnc) %>%
+  count() %>%
+  filter(n >= 2) %>%
+  select(hgnc)
+
+deeploc_multi_fil = deeploc_multi_fil %>%
+  inner_join(multi_fil)
+```
+
+Deeploc Multi contains `r nrow(deeploc_multi)` predictions for `r deeploc_multi %>% select(hgnc) %>% distinct() %>% nrow()` unique proteins. `r deeploc_multi_fil %>% select(hgnc) %>% distinct() %>% nrow()` of those are also in the HPA dataset and have a location that has been measured in the hpa dataset. 
+
+
+```{r}
+deeploc_validation = deeploc_multi_fil %>%
+  left_join(mutate(hpa, in_hpa=1), by=c(hgnc="hgnc", Prediction="deeploc_location")) %>% 
+  arrange(hgnc, Prediction)
+
+deeploc_acc = deeploc_validation %>%
+  group_by(hgnc) %>%
+  summarise(true=sum(in_hpa, na.rm=TRUE), actual=n())
+
+true_positive = deeploc_acc %>%
+  filter(true==actual) %>%
+  nrow()
+
+n_proteins = deeploc_multi_fil %>%
+  select(hgnc) %>%
+  distinct() %>%
+  nrow()
+
+true_positive / n_proteins
+```
+
+random with 8 categories: 12.5 (approx.). No statistical test, but low effect...
+
+```{r}
+hpa_validation = hpa_multi %>%
+  left_join(mutate(deeploc_pred, in_deeploc=1), by=c(hgnc="hgnc", deeploc_location="Prediction")) %>% 
+  arrange(hgnc, deeploc_location)
+
+hpa_acc = hpa_validation %>%
+  group_by(hgnc) %>%
+  summarise(true=sum(in_deeploc, na.rm=TRUE), actual=n())
+
+true_positive = hpa_acc %>%
+  filter(true==actual) %>%
+  nrow()
+
+n_proteins = hpa_multi %>%
+  select(hgnc) %>%
+  distinct() %>%
+  nrow()
+
+true_positive / n_proteins
+```
+
+Even less, because many multi-loc proteins proably don't have any isoforms. 
+
+
+# Find proteins with multiple locations (hpa)
+To it the other way round... find all proteins that are annotated as multi-loc. We look at the predictions of DeepLoc. How do the scores look like? 
+
+e.g. max score multi vs. max-score all
+
+
+```{r}
+deeploc3 = hpa %>%
+  group_by(hgnc) %>%
+  summarize(n_locations=n()) %>%
+  inner_join(deeploc) %>%
+  mutate(n_locations=as.factor(n_locations))
+```
+
+
+```{r}
+deeploc4 = deeploc3 %>%
+  filter(isoform == 1 | is.na(isoform)) %>%
+  select(-`#ID`, -isoform, -`Membrane-bound`, -uniprot) %>%
+  gather(compartment, score, -hgnc, -Prediction, -n_locations) %>%
+  arrange(hgnc) %>%
+  distinct(hgnc, compartment, .keep_all=TRUE)
+```
+
+```{r}
+max_score = deeploc4 %>%
+  group_by(hgnc, n_locations) %>%
+  summarise(score=max(score))
+
+max_score %>%
+  ggplot(aes(x=n_locations, y=score)) + geom_boxplot() + stat_compare_means()
+```
+
+```{r}
+max_score = deeploc4 %>%
+  group_by(hgnc, n_locations) %>%
+  summarise(score=sort(score, decreasing=TRUE)[2])
+
+max_score %>%
+  ggplot(aes(x=n_locations, y=score)) + geom_boxplot() + stat_compare_means()
+```
+
+As a simple test, let's see if including the second-highest prediction for multi-class proteins yields something reasonable: 
+```{r}
+deeploc_multi_pred = deeploc4 %>%
+  filter(as.numeric(n_locations)>=2) %>%
+  arrange(-score) %>%
+  group_by(hgnc) %>%
+  mutate(rank=row_number()) %>%
+  filter(rank <= 2) %>%
+  arrange(hgnc)
+
+deeploc_multi_validation = deeploc_multi_pred %>%
+  left_join(mutate(hpa, in_hpa=1), by=c(hgnc="hgnc", Prediction="deeploc_location")) %>% 
+  arrange(hgnc, Prediction)
+
+deeploc_acc = deeploc_multi_validation %>%
+  group_by(hgnc) %>%
+  summarise(true=sum(in_hpa, na.rm=TRUE), actual=n())
+
+true_positive = deeploc_acc %>%
+  filter(true==actual) %>%
+  nrow()
+
+n_proteins = deeploc_multi_pred %>%
+  select(hgnc) %>%
+  distinct() %>%
+  nrow()
+
+true_positive / n_proteins
+```
+
+
