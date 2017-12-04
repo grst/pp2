@@ -1,0 +1,67 @@
+---
+title: "Accuracy of DeepLoc for different score cutoffs."
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(assertthat)
+library(parallel)
+```
+
+```{r}
+location_mapping = read_tsv("../results/location_mapping.tsv")
+hpa = read_tsv("../results/hpa_filtered.tsv")
+deeploc = read_tsv("../results/deeploc_all.tsv")
+deeploc_fil = read_tsv("../results/deeploc_filtered.tsv")
+```
+
+```{r}
+hpa_mapped = hpa %>%
+  inner_join(location_mapping, by=c(subcellular_location="target_location")) %>%
+  filter(target_source == 'hpa')
+
+deeploc_clean = deeploc %>%
+  inner_join(deeploc_fil) %>%
+  select(-`#ID`, -uniprot, -`Membrane-bound`, -isoform) %>%
+  rowwise() %>% 
+  mutate(max_score=max(Nucleus:Peroxisome)) %>%
+  distinct(hgnc, .keep_all=TRUE) 
+
+deeploc_val = deeploc_clean %>% 
+  inner_join(hpa_mapped, by=c(hgnc="hgnc")) %>%
+  rowwise() %>%
+  mutate(true_positive=Prediction==deeploc_location) %>%
+  ungroup() %>%
+  group_by(hgnc, max_score) %>%
+  summarise(true_positive=any(true_positive))
+```
+
+Show a plot similar to the one from the LocTree2 paper: Accuracy depending on the cutoff. 
+
+Dataset: The 7821 proteins which are both in HPA and deeploc and had a location that could be mappeed. 
+Coverage is defined as the fraction of predictions that exceed a certain score. 
+Accuracy is defined as the number of predictions that are correct divided by the total number of predictions.
+A prediction is correct if the predicted class matches to one of the annotated classes of the HPA. 
+```{r}
+cutoffs = seq(0, .99, 0.01)
+
+by_cutoff = function(thres) {
+  above_thres = deeploc_val %>% filter(max_score >= thres)
+  tp = above_thres %>% filter(true_positive)
+  
+  acc = nrow(tp) / nrow(above_thres)
+    
+  coverage = nrow(above_thres) / nrow(deeploc_val)
+  
+  return(c(accuracy=acc, coverage=coverage))
+}
+
+res = mcmapply(by_cutoff, cutoffs, mc.cores=4)
+
+res_df = tbl_df(t(res)) %>%
+  mutate(cutoff=cutoffs) %>% 
+  gather(type, score, -cutoff)
+
+ggplot(res_df, aes(x=cutoff, y=score)) + geom_line(aes(colour=type))
+```
