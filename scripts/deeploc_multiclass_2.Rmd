@@ -1,0 +1,159 @@
+---
+title: "DeepLoc Multiclass predictions - Part II"
+output:
+  html_document: default
+  html_notebook: default
+  pdf_document: default
+---
+
+```{r setup, echo=FALSE, message=FALSE}
+library(tidyverse)
+library(ggpubr)
+library(cowplot)
+library(pROC)
+```
+
+Before, we have shown that if we *know*, how many locations a protein has, we are 
+able to predict these locations from the DeepLoc scores at ~50% accuracy. 
+
+In this notebook, we will investigate, if we are also capable of *predicting* at how
+many locations a protein occurs. 
+
+# Load and prepare data
+We use the HPA as a reference dataset. 
+We map the deeploc data to the HPA data.
+```{r, warning=FALSE, message=FALSE}
+deeploc = read_tsv("../results/deeploc_all.tsv")
+location_mapping = read_tsv("../results/location_mapping.tsv")
+hpa = read_tsv("../results/hpa_filtered.tsv")
+```
+
+```{r, include=FALSE}
+# subcellular locations both in deeploc and hpa (mapped to deeploc)
+shared_locations = location_mapping %>%
+  filter(target_source == 'hpa') %>%
+  select(deeploc_location) %>%
+  distinct()
+
+# protein identifiers both in deeploc and hpa
+shared_prots = deeploc %>% 
+  inner_join(shared_locations, by=c(Prediction="deeploc_location")) %>%
+  inner_join(hpa, by=c(hgnc='hgnc')) %>%
+  select(hgnc) %>%
+  distinct()
+
+nrow(shared_prots)
+paste(shared_locations$deeploc_location, sep=",", collapse = ", ")
+```
+
+```{r, include=FALSE}
+# hpa mapped to deeploc locations, filtered for proteins also in deeploc dataset
+hpa_fil = hpa %>%
+  inner_join(
+    filter(location_mapping, target_source == 'hpa'),
+    by=c(subcellular_location="target_location")) %>%
+  inner_join(shared_prots) %>%
+  inner_join(shared_locations) %>%
+  select(hgnc, deeploc_location) %>%
+  distinct()
+
+deeploc_fil = deeploc %>%
+  inner_join(shared_prots) %>%
+  inner_join(shared_locations, by=c(Prediction="deeploc_location")) %>%
+  select(hgnc, deeploc_location="Prediction") %>%
+  distinct()
+```
+
+```{r, include=FALSE}
+hpa_loc_count = hpa_fil %>%
+  group_by(hgnc) %>%
+  summarise(n_locations=n()) %>%
+  select(hgnc, n_locations)
+
+deeploc_scores = deeploc %>% 
+  filter(isoform == 1 | is.na(isoform)) %>% # only canonical isoforms
+  inner_join(hpa_loc_count) %>%
+  select(-`#ID`, -isoform, -`Membrane-bound`, -uniprot) %>%
+  gather(compartment, score, -hgnc, -Prediction, -n_locations) %>%
+  arrange(hgnc) %>%
+  distinct(hgnc, compartment, .keep_all=TRUE)
+```
+After preparation we have a table like this:
+```{r}
+deeploc_scores
+```
+
+# Results
+## Distribution of Scores
+Here, we show the score distribution for the highest, second highest, ... prediction
+for proteins that have one or two locations according to HPA respectively. 
+
+While there are (statistically significant) differences, we already see 
+that it will be hard to distinguish between the two categories using the 
+score only. 
+```{r}
+deeploc_score_distrib = deeploc_scores %>%
+  filter(n_locations <= 2) %>%
+  mutate(n_locations=as.factor(n_locations)) %>%
+  group_by(hgnc) %>%
+  mutate(rank=rank(-score, ties.method="max")) %>%
+  arrange(hgnc)
+
+deeploc_score_distrib %>%
+  ggplot(aes(x=as.factor(rank), y=score)) + geom_boxplot(aes(colour=n_locations))
+```
+
+## Simple classification by Threshold
+The basic idea is, to use a threshold for the highest score. 
+Above a certain threshold, we consider the protein as "having only one subcellular location". 
+Below the threshold, we consider it as "having two subcellular locations". 
+
+The figur below shows an example for a cutoff of 0.7:
+```{r}
+thres = .7
+
+get_state = function(n_pred, n_actual) {
+  if(n_pred == 1) {
+    if(n_actual == 1) {
+      return("TN")
+    } else {
+      return("FN")
+    }
+  } else {
+    if(n_actual == 2) {
+      return("TP")
+    } else{
+      return("FP")
+    }
+  }
+}
+
+max_score = deeploc_score_distrib %>%
+  filter(rank == 1) %>% 
+  mutate(pred_locations=ifelse(score>thres,1,2)) %>%
+  mutate(state=get_state(pred_locations, n_locations))
+
+max_score %>%
+  ggplot(aes(x=n_locations, y=score)) +
+  geom_violin(col='black') +
+  geom_boxplot(width=.1) + 
+  geom_jitter(alpha=.3, shape=1, aes(colour=state)) +
+  geom_hline(yintercept=thres, col='red')
+```
+
+## ROC Analysis
+To quantify the performance for all thresholds, we perform a ROC analysis. 
+As expected, the overall performance is quite poor with an AUC of 0.54. 
+```{r}
+roc_curve = roc(response=max_score$n_locations, predictor=max_score$score)
+plot(roc_curve)
+title(paste("AUC =", round(roc_curve$auc, 2)))
+```
+
+# Conclusion
+We conclude that multiclass prediction from DeepLoc scores alone is not feasible. 
+For further investigation we suggest either
+
+ * obtaining unnormalized scores from the Neural Network or
+ * adding the number of locations as an output to the Neural Network directly. 
+ 
